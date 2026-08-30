@@ -1,7 +1,6 @@
 import { ATTRACTIONS } from '../data/attractions';
 import {
   Attraction,
-  CoreInterestKey,
   InterestLevel,
   ScoreKey,
   UserPreferences } from
@@ -34,12 +33,14 @@ export interface CandidateDraft {
 
 export function interestWeights(prefs: UserPreferences): Partial<Record<ScoreKey, number>> {
   const weights: Partial<Record<ScoreKey, number>> = {};
-  (Object.keys(prefs.interests) as CoreInterestKey[]).forEach((key) => {
+  (Object.keys(prefs.interests) as ScoreKey[]).forEach((key) => {
     weights[key] = LEVEL_WEIGHT[prefs.interests[key]];
   });
-  prefs.optionalInterests.forEach((key) => {
-    weights[key] = OPTIONAL_WEIGHT;
-  });
+  if (prefs.optionalInterests) {
+    prefs.optionalInterests.forEach((key) => {
+      weights[key] = OPTIONAL_WEIGHT;
+    });
+  }
   const total = Object.values(weights).reduce((sum, w) => sum + (w ?? 0), 0) || 1;
   (Object.keys(weights) as ScoreKey[]).forEach((key) => {
     weights[key] = (weights[key] as number) / total;
@@ -94,7 +95,7 @@ prefs: UserPreferences)
   map((id) => ranked.find((r) => r.attraction.id === id)).
   filter(Boolean) as ScoredAttraction[];
   const rawInterest = items.reduce((sum, i) => sum + i.interest, 0) / Math.max(items.length, 1);
-  const coverageKeys = (Object.keys(prefs.interests) as CoreInterestKey[]).filter(
+  const coverageKeys = (Object.keys(prefs.interests) as ScoreKey[]).filter(
     (k) => prefs.interests[k] === 'High'
   );
   const covered = coverageKeys.filter((key) =>
@@ -120,7 +121,7 @@ function reasonsFor(ids: string[], ranked: ScoredAttraction[], prefs: UserPrefer
   map((id) => ranked.find((r) => r.attraction.id === id)).
   filter(Boolean) as ScoredAttraction[];
   const reasons: string[] = [];
-  (Object.keys(prefs.interests) as CoreInterestKey[]).forEach((key) => {
+  (Object.keys(prefs.interests) as ScoreKey[]).forEach((key) => {
     if (prefs.interests[key] === 'Low') return;
     const hits = items.filter((i) => i.attraction.scores[key] >= 4);
     if (hits.length) {
@@ -131,10 +132,12 @@ function reasonsFor(ids: string[], ranked: ScoredAttraction[], prefs: UserPrefer
       );
     }
   });
-  prefs.optionalInterests.forEach((key) => {
-    const hits = items.filter((i) => i.attraction.scores[key] >= 4);
-    if (hits.length) reasons.push(`Covers your optional ${key} preference`);
-  });
+  if (prefs.optionalInterests) {
+    prefs.optionalInterests.forEach((key) => {
+      const hits = items.filter((i) => i.attraction.scores[key] >= 4);
+      if (hits.length) reasons.push(`Covers your optional ${key} preference`);
+    });
+  }
   const cost = items.reduce((sum, i) => sum + i.attraction.activityCost, 0);
   reasons.push(`Activity spend of Rs.${cost.toLocaleString('en-US')} across ${items.length} sites`);
   const provinces = new Set(items.map((i) => i.attraction.province));
@@ -193,11 +196,11 @@ export function generateCandidatePlans(prefs: UserPreferences): {
     strategy: 'Balanced Coverage',
     note: 'One best-in-class site per weighted interest, then filled by rank.',
     pick: () => {
-      const keys = (Object.keys(prefs.interests) as CoreInterestKey[]).
+      const keys = (Object.keys(prefs.interests) as ScoreKey[]).
       filter((k) => prefs.interests[k] !== 'Low').
       sort((a, b) => (prefs.interests[b] === 'High' ? 1 : 0) - (prefs.interests[a] === 'High' ? 1 : 0));
       const chosen: string[] = [];
-      const allKeys: ScoreKey[] = [...keys, ...prefs.optionalInterests];
+      const allKeys: ScoreKey[] = [...keys, ...(prefs.optionalInterests || [])];
       allKeys.forEach((key) => {
         const best = pool.find(
           (r) => !chosen.includes(r.attraction.id) && r.attraction.scores[key] >= 4

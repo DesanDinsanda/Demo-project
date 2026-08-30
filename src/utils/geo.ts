@@ -32,10 +32,8 @@ interface TransportProfile {
 }
 
 export const TRANSPORT_PROFILES: Record<TransportMode, TransportProfile> = {
-  'Train + Bus': { label: 'Train + Bus', avgSpeedKmh: 42, costPerKm: 38, baseFare: 900 },
-  'Bus Only': { label: 'Intercity Bus', avgSpeedKmh: 36, costPerKm: 28, baseFare: 600 },
-  'Train + Car': { label: 'Train + Car', avgSpeedKmh: 50, costPerKm: 58, baseFare: 1500 },
-  'Private Car': { label: 'Private Car', avgSpeedKmh: 55, costPerKm: 82, baseFare: 2000 }
+  'Public Transport': { label: 'Public Transport (Bus / Train)', avgSpeedKmh: 38, costPerKm: 30, baseFare: 800 },
+  'Private Transport': { label: 'Private Transport (Car / Van)', avgSpeedKmh: 55, costPerKm: 80, baseFare: 2000 }
 };
 
 const SHORT_HOP = {

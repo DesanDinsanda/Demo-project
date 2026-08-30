@@ -3,17 +3,17 @@ export type InterestLevel = 'Low' | 'Medium' | 'High';
 export type CoreInterestKey = 'nature' | 'wildlife' | 'culture' | 'adventure';
 
 export type OptionalInterestKey =
-'beach' |
-'food' |
-'shopping' |
-'history' |
-'religious';
+  | 'beach'
+  | 'food'
+  | 'shopping'
+  | 'history'
+  | 'religious';
 
 export type ScoreKey = CoreInterestKey | OptionalInterestKey;
 
 export type TravelStyle = 'Budget' | 'Balanced' | 'Comfort';
 
-export type TransportMode = 'Train + Bus' | 'Bus Only' | 'Train + Car' | 'Private Car';
+export type TransportMode = 'Public Transport' | 'Private Transport';
 
 export interface Attraction {
   id: string;
@@ -57,8 +57,8 @@ export interface UserPreferences {
   endHubId: string;
   travelStyle: TravelStyle;
   transport: TransportMode;
-  interests: Record<CoreInterestKey, InterestLevel>;
-  optionalInterests: OptionalInterestKey[];
+  interests: Record<ScoreKey, InterestLevel>;
+  optionalInterests: ScoreKey[];
   maxDailyTravelHours: number;
   emergencyReserve: number;
   maxDestinations: number;

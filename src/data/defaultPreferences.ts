@@ -8,14 +8,19 @@ export const DEFAULT_PREFERENCES: UserPreferences = {
   startHubId: 'hub-cmb',
   endHubId: 'hub-cmb',
   travelStyle: 'Balanced',
-  transport: 'Train + Bus',
+  transport: 'Public Transport',
   interests: {
     nature: 'High',
     wildlife: 'High',
     culture: 'High',
-    adventure: 'Medium'
+    adventure: 'Medium',
+    beach: 'Medium',
+    food: 'Medium',
+    shopping: 'Low',
+    history: 'Medium',
+    religious: 'Low'
   },
-  optionalInterests: ['beach'],
+  optionalInterests: [],
   maxDailyTravelHours: 5,
   emergencyReserve: 10000,
   maxDestinations: 5
