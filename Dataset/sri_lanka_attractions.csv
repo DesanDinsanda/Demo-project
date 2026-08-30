@@ -1,66 +1,451 @@
 id,name,city,province,lat,lng,nature,wildlife,culture,adventure,beach,food,shopping,history,religious,activityCost,visitDuration,popularity,recommendedSeason,description
-sigiriya,Sigiriya Rock Fortress,Sigiriya,Central,7.9572,80.7603,4,2,5,4,1,1,1,5,1,10800,4.0,98,Year round,"5th-century royal citadel built on a 200m granite rock monolith with world-famous frescoes, mirror wall and summit gardens."
-tooth_relic,Temple of the Sacred Tooth Relic (Dalada Maligawa),Kandy,Central,7.2936,80.6413,2,1,5,1,1,2,3,5,5,2000,2.5,96,Year round,"Sri Lanka's most venerated Buddhist shrine housing the sacred tooth relic of Lord Buddha, located beside Kandy Lake."
-dambulla_cave,Dambulla Royal Cave Temple,Dambulla,Central,7.8567,80.6492,3,2,5,2,1,1,2,5,5,2000,3.0,92,Year round,UNESCO World Heritage site comprising 5 cavernous shrines filled with 153 Buddha statues and ancient wall murals.
-horton_plains,Horton Plains National Park & World's End,Nuwara Eliya,Central,6.8096,80.8004,5,4,1,5,1,1,1,1,1,12000,5.0,89,Jan - Mar,"High montane plateau at 2,100m elevation featuring a 9km loop trek to a sheer 880m drop at World's End and Baker's Falls."
-nuwara_eliya_tea,Nuwara Eliya Hill Station & Tea Estates,Nuwara Eliya,Central,6.9497,80.7891,5,2,3,3,1,4,3,4,1,3500,4.0,91,Mar - May,"Colonial 'Little England' hill city surrounded by lush Ceylon tea plantations, Gregory Lake and cool-climate gardens."
-pidurangala,Pidurangala Rock,Sigiriya,Central,7.9673,80.7675,5,2,3,5,1,1,1,3,2,1000,3.0,90,Year round,Neighboring rock outcrop offering iconic 360-degree sunrise views facing the Sigiriya Fortress.
-peradeniya_botanical,Royal Botanical Gardens Peradeniya,Kandy,Central,7.2683,80.5964,5,3,3,2,1,2,2,4,1,3000,3.5,88,Year round,"Sprawling 147-acre botanical park famous for its orchid collection, giant bamboo, and palm avenues."
-knuckles_range,Knuckles Mountain Range,Matale,Central,7.4667,80.7833,5,4,2,5,1,1,1,1,1,6000,7.0,82,Jun - Sep,"Rugged UNESCO cloud forest biosphere reserve ideal for multi-day trekking, waterfalls, and biodiversity."
-ramboda_falls,Ramboda Falls,Nuwara Eliya,Central,7.0542,80.6975,5,1,1,3,1,2,1,1,1,500,2.0,84,Year round,109m high multi-tiered waterfall alongside the scenic Kandy-Nuwara Eliya mountain pass.
-riverston,Riverston Peak & Pitawala Pathana,Matale,Central,7.5283,80.7386,5,3,1,4,1,1,1,1,1,1500,4.5,80,Year round,Wind-swept gap and grassland plateau known as the 'Mini World's End' of the Matale hills.
-yala_national_park,Yala National Park (Block 1),Yala,Southern,6.3728,81.5016,5,5,1,4,2,1,1,2,1,15000,6.0,95,Feb - Jul,Sri Lanka's flagship safari destination boasting the highest leopard density globally alongside elephants and sloth bears.
-galle_fort,Galle Dutch Fort,Galle,Southern,6.0262,80.2169,3,1,5,2,4,5,5,5,2,1500,3.5,94,Nov - Apr,"UNESCO-preserved Dutch-colonial fortified town with cobblestone lanes, ocean bastions, lighthouse, and boutique shops."
-mirissa_beach,Mirissa Beach & Whale Watching,Mirissa,Southern,5.9449,80.4594,4,5,1,4,5,4,2,1,1,9000,5.0,92,Nov - Apr,Prime south-coast bay famous for early morning blue whale watching excursions and vibrant beachside nightlife.
-unawatuna_beach,Unawatuna Bay & Jungle Beach,Galle,Southern,5.9784,80.2494,4,2,2,3,5,4,3,1,1,2000,4.0,90,Nov - Apr,"Crescent golden beach with calm swimming water, reef snorkeling and nearby secluded Jungle Beach."
-hikkaduwa_beach,Hikkaduwa Coral Reef & Beach,Hikkaduwa,Southern,6.1394,80.1011,4,4,1,4,5,4,3,1,1,3500,4.0,87,Nov - Apr,"Famous beach town renowned for sea turtle feeding on the shoreline, surfing, and glass-bottom coral reef boat rides."
-tangalle_goiyambokka,Tangalle & Goyambokka Beach,Tangalle,Southern,6.0244,80.7933,5,3,1,3,5,3,1,1,1,1000,4.0,85,Nov - Apr,"Tranquil deep-south turquoise coves backed by palm groves, ideal for relaxation and turtle nesting."
-weligama_bay,Weligama Bay Surf Point,Weligama,Southern,5.9722,80.4289,4,1,2,5,5,3,2,1,1,3000,3.5,88,Nov - Apr,Sri Lanka's premier beginner surfboard learning bay with sandy beach break waves and iconic Taprobane Island.
-bundala_national_park,Bundala Ramsar Wetland Park,Hambantota,Southern,6.1833,81.2167,5,5,1,3,2,1,1,1,1,10000,4.5,78,Sep - Mar,"UNESCO Biosphere wetland sanctuary hosting thousands of migratory flamingos, waterbirds, and crocodiles."
-hummanaya_blowhole,Hummanaya Natural Blowhole,Kudawella,Southern,5.9625,80.7028,4,1,1,2,3,1,1,1,1,500,1.5,76,May - Sep,"The only natural sea blowhole in Sri Lanka, shooting ocean spray up to 30 meters into the air during high tide."
-matara_parey_dewa,Matara Paravi Duwa Temple & Star Fort,Matara,Southern,5.9485,80.5353,3,1,4,1,4,2,2,4,4,1000,2.5,79,Nov - Apr,"Island Buddhist temple accessed via a cable bridge, combined with the Dutch Star Fort monument."
-gangaramaya_temple,Gangaramaya Temple & Seema Malaka,Colombo,Western,6.9169,79.8564,1,1,5,1,1,2,3,4,5,2000,2.0,89,Year round,"Eclectic urban temple complex on Beira Lake housing precious artifacts, statues, and classic vintage automobiles."
-one_galle_face,One Galle Face & Promenade,Colombo,Western,6.9268,79.8436,1,1,3,1,2,5,5,2,1,3000,3.0,86,Year round,Colombo's oceanfront mega-shopping mall and street-food culinary walkway on Galle Face Green.
-colombo_museum,National Museum of Colombo,Colombo,Western,6.9107,79.8612,1,1,5,1,1,1,1,5,2,1500,3.0,82,Year round,"Sri Lanka's largest museum exhibiting Kandyan royal regalia, ancient bronzes, and colonial heritage."
-lotus_tower,Colombo Lotus Tower,Colombo,Western,6.9272,79.8578,1,1,3,2,1,4,3,1,1,6000,2.0,91,Year round,"South Asia's tallest self-supported structure at 350m, offering panoramic revolving observation deck views."
-kelaniya_vihara,Kelaniya Raja Maha Vihara,Kelaniya,Western,6.9583,79.9208,2,1,5,1,1,1,1,5,5,1000,2.0,84,Year round,"Historic Buddhist temple believed to be hallowed by the Buddha's third visit to Sri Lanka, renowned for Solias Mendis frescoes."
-mount_lavinia,Mount Lavinia Beach & Hotel,Mount Lavinia,Western,6.837,79.8647,3,1,3,2,4,4,2,4,1,2000,3.5,83,Nov - Apr,"Colonial beach suburb famous for its historic Governor's mansion hotel, sunset seafood dining, and sandy bay."
-negombo_beach,Negombo Beach & Dutch Canal,Negombo,Western,7.2286,79.8397,3,2,3,3,4,4,3,3,2,2000,3.0,85,Nov - Apr,"Coastal town near CMB airport known for catamarans, Dutch canals, lagoon fish market, and beach resort strip."
-muthurajawela,Muthurajawela Marsh Wetland Boat Tour,Gampaha,Western,7.0333,79.8667,5,4,1,3,1,1,1,1,1,4000,3.0,75,Year round,"Coastal marshland biodiversity haven ideal for boat trips observing water monitors, kingfishers, and mangroves."
-jaffna_fort,Jaffna Fort,Jaffna,Northern,9.6608,80.0092,2,1,4,2,2,2,2,5,1,1000,2.5,86,May - Sep,"Large star-shaped fortress built by the Portuguese in 1618 and later expanded by the Dutch, overlooking Jaffna Lagoon."
-nallur_kovil,Nallur Kandaswamy Kovil,Jaffna,Northern,9.6744,80.0294,1,1,5,1,1,2,2,5,5,500,2.0,90,May - Sep,Sri Lanka's premier Hindu temple complex featuring a soaring golden gopuram tower and vibrant annual chariot festivals.
-delft_island,Delft Island (Neduntheevu) & Wild Horses,Jaffna,Northern,9.5167,79.6833,4,4,4,4,3,1,1,4,1,2500,6.0,81,May - Sep,"Remote island reached by naval ferry, known for wild feral horses descended from Portuguese stock, coral walls, and baobab trees."
-keerimalai_springs,Keerimalai Naguleswaram Kovil & Mineral Springs,Jaffna,Northern,9.8144,80.0153,3,1,4,1,3,1,1,4,5,500,2.0,77,May - Sep,"Ancient coastal natural spring pool believed to possess curative mineral properties, adjacent to a revered Shiva Kovil."
-casuarina_beach,Casuarina Beach Karainagar,Jaffna,Northern,9.7714,79.8867,4,1,1,2,5,2,1,1,1,1000,3.5,83,May - Sep,Pristine shallow white-sand beach lined with casuarina trees on Karainagar island in northern Jaffna.
-mannar_baobab,Mannar Baobab Tree & Dutch Fort,Mannar,Northern,8.9786,79.9142,3,2,3,2,2,1,1,4,1,500,2.5,74,May - Sep,"Massive 700-year-old baobab tree planted by Arab traders, along with Mannar's historic island fort."
-point_pedro,Point Pedro Northernmost Tip & Lighthouse,Jaffna,Northern,9.8272,80.2458,3,1,2,2,4,1,1,3,1,500,1.5,78,May - Sep,Geographical landmark marking the northernmost point of Sri Lanka with a colonial lighthouse and fishing harbor.
-nilaveli_pigeon_island,Nilaveli Beach & Pigeon Island National Park,Trincomalee,Eastern,8.7167,81.2,5,4,1,4,5,3,1,1,1,5000,4.5,91,May - Sep,White sand beach launching point for marine park boat trips to snorkel with blacktip reef sharks and sea turtles.
-koneswaram_temple,Koneswaram Temple (Swami Rock),Trincomalee,Eastern,8.5772,81.2433,4,2,5,2,3,2,2,5,5,1000,2.5,89,May - Sep,"Clifftop Hindu temple dedicated to Lord Shiva, dramatically situated on Swami Rock overlooking Trincomalee's natural harbor."
-arugam_bay,Arugam Bay Surf Point,Ampara,Eastern,6.8419,81.8328,4,3,1,5,5,4,2,1,1,4000,5.0,93,May - Sep,"World-renowned right-point surf destination drawing international surfers, featuring laid-back beach cafes and lagoon safaris."
-pasikuda_beach,Pasikuda & Kalkudah Bay,Batticaloa,Eastern,7.9272,81.5622,4,1,1,3,5,3,1,1,1,2000,4.0,87,May - Sep,Shallow reef-protected bay where visitors can walk out hundreds of meters into calm crystal-clear turquoise waters.
-marble_beach,Marble Beach Trincomalee,Trincomalee,Eastern,8.5217,81.2158,5,2,1,2,5,2,1,1,1,1000,3.0,82,May - Sep,"Pristine secluded bay managed by the air force, named for its glass-smooth reflective water surface."
-kumana_national_park,Kumana Bird Sanctuary & Park,Ampara,Eastern,6.5167,81.7,5,5,1,4,2,1,1,2,1,12000,5.0,79,May - Sep,"Renowned bird sanctuary adjacent to Yala East, famous for nesting pelicans, painted storks, and wild leopard safaris."
-anuradhapura_sacred,Anuradhapura Sacred City & Ruwanwelisaya,Anuradhapura,North Central,8.35,80.3833,3,2,5,2,1,1,2,5,5,8000,5.0,94,Year round,"Sri Lanka's 1st ancient royal capital featuring immense white stupas, Jaya Sri Maha Bodhi tree, and monastic ruins."
-polonnaruwa_ancient,Polonnaruwa Ancient Kingdom & Gal Vihara,Polonnaruwa,North Central,7.9403,81.0188,3,3,5,3,1,1,2,5,4,8000,4.5,92,Year round,"Medieval 12th-century capital with cyclable ruins, royal palace complex, and masterfully carved Gal Vihara rock Buddhas."
-minneriya_gathering,Minneriya National Park Elephant Gathering,Habarana,North Central,8.0333,80.8833,5,5,1,3,1,1,1,1,1,12000,4.0,93,Jun - Sep,Host to the world-famous dry-season 'Gathering' where up to 300 Asian wild elephants assemble around the Minneriya tank.
-mihintale_mountain,Mihintale Sacred Mountain Peak,Anuradhapura,North Central,8.3511,80.5097,4,2,5,3,1,1,1,5,5,1000,3.0,86,Year round,"Mountain peak sanctuary revered as the cradle of Buddhism in Sri Lanka, accessed via 1,840 carved stone steps."
-ritigala_monastery,Ritigala Strict Nature Reserve & Monastery,Anuradhapura,North Central,8.1167,80.65,5,3,4,3,1,1,1,5,4,1500,3.0,80,Year round,Secluded forest monastery ruins nestled on a medicinal mountain peak shrouded in myth and jungle foliage.
-avukana_buddha,Avukana Standing Buddha Statue,Kekirawa,North Central,8.0169,80.5133,2,1,5,1,1,1,1,5,5,1000,1.5,81,Year round,Colossal 12-meter standing Buddha statue carved out of a solid granite rock face in the 5th century.
-wilpattu_main,Wilpattu National Park (Main Entrance),Puttalam,North Western,8.4461,80.0505,5,5,1,4,2,1,1,2,1,14000,6.0,88,Feb - Oct,"Sri Lanka's largest national park famous for natural rainwater 'Villu' lakes, leopards, sloth bears, and dense jungle."
-kalpitiya_dolphins,Kalpitiya Peninsula & Dolphin Safaris,Kalpitiya,North Western,8.2333,79.7667,4,5,1,5,5,2,1,2,1,8000,4.5,85,Nov - Apr,Premier kite-surfing spot and marine sanctuary famous for massive pods of hundreds of spinner dolphins.
-yapahuwa_fortress,Yapahuwa Rock Fortress & Kingdom,Kurunegala,North Western,7.8286,80.3164,4,1,5,4,1,1,1,5,2,2000,2.5,83,Year round,13th-century rock fortress capital featuring a dramatic ornamental stone staircase guarded by lion sculptures.
-munneswaram_kovil,Munneswaram Hindu Temple,Chilaw,North Western,7.5819,79.8089,1,1,4,1,1,1,1,5,5,500,1.5,79,Year round,"One of Sri Lanka's five ancient Ishwarams dedicated to Lord Shiva, associated with the Ramayana epic."
-ridi_viharaya,Ridi Viharaya (Silver Temple),Kurunegala,North Western,7.5458,80.4636,3,1,5,2,1,1,1,5,4,1000,2.0,77,Year round,2nd-century BC cave temple built where silver ore was discovered to finance the construction of Ruwanwelisaya.
-ella_nine_arch,Ella Nine Arch Bridge & Little Adam's Peak,Ella,Uva,6.8749,81.0463,5,2,3,4,1,4,3,3,1,2000,5.0,96,Jan - Mar,"World-famous colonial stone railway viaduct set in lush tea valley, paired with the easy summit hike of Little Adam's Peak."
-ella_rock,Ella Rock Trek,Ella,Uva,6.8558,81.0514,5,2,1,5,1,1,1,1,1,1500,4.5,89,Jan - Mar,Challenging hill country hike through eucalyptus forests and tea estates rewarding climbers with sweeping cliffside valley views.
-diyaluma_falls,Diyaluma Falls & Upper Natural Pools,Koslanda,Uva,6.7322,81.0319,5,1,1,5,1,1,1,1,1,1000,4.0,90,Jan - Mar,Sri Lanka's 2nd highest waterfall (220m) featuring natural infinity rock pools at the top edge of the cliff.
-ravana_falls,Ravana Falls & Ravana Cave,Ella,Uva,6.8406,81.055,4,1,3,3,1,2,2,4,1,500,2.0,86,Year round,Cascading roadside waterfall associated with King Ravana of the Ramayana legend.
-liptons_seat,Lipton's Seat & Dambatenne Tea Factory,Haputale,Uva,6.7803,80.9708,5,1,3,3,1,2,2,4,1,1500,3.5,87,Jan - Mar,"Panoramic mountain lookout point where Sir Thomas Lipton surveyed his tea empire, offering views across 7 provinces."
-dunhinda_falls,Dunhinda Falls,Badulla,Uva,7.0264,81.0658,5,2,1,3,1,1,1,1,1,500,2.5,82,Year round,64m high misty waterfall near Badulla town created by the Badulu Oya river.
-kataragama_sacred,Kataragama Sacred Shrine Complex,Kataragama,Uva,6.4133,81.3325,3,2,5,1,1,2,2,5,5,1000,3.0,91,Jul - Aug,"Multi-religious pilgrimage sanctuary venerated equally by Buddhists, Hindus, Muslims, and indigenous Vedda people."
-udawalawe_national_park,Udawalawe National Park & Elephant Transit Home,Udawalawe,Sabaragamuwa,6.4753,80.8889,5,5,1,3,1,1,1,1,1,13000,5.0,92,Year round,Open reservoir grassland renowned for guaranteed wild elephant herd sightings and feeding orphaned calves at ETH.
-adams_peak,Adam's Peak (Sri Pada),Nallathanniya,Sabaragamuwa,6.8096,80.4994,5,2,4,5,1,1,1,4,5,2500,8.0,90,Dec - May,"Sacred 2,243m mountain pilgrimage climb of 5,500 stone steps to a summit footprint shrine for sunrise."
-pinnawala_elephant,Pinnawala Elephant Orphanage,Kegalle,Sabaragamuwa,7.3009,80.3885,3,5,2,1,1,2,3,1,1,3000,3.0,87,Year round,Sanctuary for orphaned wild elephants famous for daily river bathing processions down the main village street.
-kitulgala_rafting,Kitulgala White Water Rafting & Adventure,Kitulgala,Sabaragamuwa,6.9903,80.4136,5,2,1,5,1,2,1,2,1,5000,4.5,88,Year round,"Sri Lanka's adventure sports hub on the Kelani River, featuring Grade 3 white-water rafting, canyoning, and rain forest treks."
-sinharaja_rainforest,Sinharaja Rain Forest Reserve,Deniyaya,Sabaragamuwa,6.4,80.4667,5,5,1,4,1,1,1,1,1,5000,5.0,86,Dec - Apr,"UNESCO World Heritage primary virgin tropical rainforest boasting rare endemic flora, reptiles, and mixed bird feeding flocks."
-bopath_ella,Bopath Ella Waterfall,Ratnapura,Sabaragamuwa,6.7947,80.3756,4,1,1,2,1,2,1,1,1,500,2.0,80,Year round,"Picturesque waterfall shaped like a sacred Bo-leaf (Ficus religiosa), popular for day picnics."
+sigiriya,Sigiriya Rock Fortress,Sigiriya,Central,7.9572,80.7603,4,2,5,4,1,1,1,5,1,10800,4.0,98,Year round,5th-century royal rock citadel with frescoes and summit gardens.
+tooth_relic,Temple of the Sacred Tooth Relic,Kandy,Central,7.2936,80.6413,2,1,5,1,1,2,3,5,5,2000,2.5,96,Year round,Venerated shrine housing Lord Buddha's tooth relic.
+dambulla_cave,Dambulla Royal Cave Temple,Dambulla,Central,7.8567,80.6492,3,2,5,2,1,1,2,5,5,2000,3.0,92,Year round,Five cavernous rock temples with 153 Buddha statues.
+horton_plains,Horton Plains & World's End,Nuwara Eliya,Central,6.8096,80.8004,5,4,1,5,1,1,1,1,1,12000,5.0,89,Jan - Mar,High montane plateau loop trail leading to World's End escarpment.
+nuwara_eliya_town,Nuwara Eliya Hill Station,Nuwara Eliya,Central,6.9497,80.7891,5,2,3,3,1,4,3,4,1,3500,4.0,91,Mar - May,Colonial hill station known as Little England surrounded by tea slopes.
+pidurangala,Pidurangala Rock,Sigiriya,Central,7.9673,80.7675,5,2,3,5,1,1,1,3,2,1000,3.0,90,Year round,Panoramiic summit outcrop offering full views of Sigiriya Rock.
+peradeniya_gardens,Royal Botanical Gardens Peradeniya,Kandy,Central,7.2683,80.5964,5,3,3,2,1,2,2,4,1,3000,3.5,88,Year round,147-acre botanical park renowned for orchids and giant bamboo.
+knuckles_range,Knuckles Mountain Range,Matale,Central,7.4667,80.7833,5,4,2,5,1,1,1,1,1,6000,7.0,82,Jun - Sep,UNESCO cloud forest mountain biosphere for trekking and waterfalls.
+ramboda_falls,Ramboda Falls,Nuwara Eliya,Central,7.0542,80.6975,5,1,1,3,1,2,1,1,1,500,2.0,84,Year round,109m high multi-tiered waterfall along the mountain highway.
+riverston,Riverston Peak & Pitawala Pathana,Matale,Central,7.5283,80.7386,5,3,1,4,1,1,1,1,1,1500,4.5,80,Year round,Windy mountain gap and mini World's End cliff in Matale.
+ambewela_farm,Ambewela New Zealand Dairy Farm,Nuwara Eliya,Central,6.8786,80.8142,4,3,1,2,1,4,2,1,1,1000,2.5,85,Year round,Highland dairy cattle pasture known as Little New Zealand.
+gregory_lake,Gregory Lake & Park,Nuwara Eliya,Central,6.9536,80.7831,4,1,1,3,1,3,2,2,1,500,2.5,87,Year round,"Scenic lake park with jet-skiing, swan boats and horse rides."
+bakers_falls,Baker's Falls,Nuwara Eliya,Central,6.8014,80.7967,5,2,1,4,1,1,1,1,1,500,2.0,83,Jan - Mar,Famous 20m high waterfall inside Horton Plains National Park.
+st_clairs_falls,St. Clair's Falls (Little Niagara),Nuwara Eliya,Central,6.9458,80.6386,5,1,1,2,1,1,1,1,1,0,1.5,86,Year round,Widest waterfall in Sri Lanka running through tea plantations.
+devon_falls,Devon Falls,Nuwara Eliya,Central,6.9531,80.6278,5,1,1,2,1,1,1,1,1,0,1.5,85,Year round,97m high cascading waterfall viewable from the Hatton highway.
+kandy_lake,Kandy Lake (Bogambara Wewa),Kandy,Central,7.2917,80.6389,4,1,3,2,1,2,2,4,1,0,1.5,88,Year round,Central artificial lake created in 1807 by King Sri Wickrama Rajasinghe.
+udawatta_kele,Udawatta Kele Sanctuary,Kandy,Central,7.2986,80.6458,5,4,2,3,1,1,1,3,1,1500,3.0,79,Year round,Historic forest reserve above Kandy Temple rich in bird species.
+aluvihare,Aluvihare Rock Temple,Matale,Central,7.4878,80.6231,3,1,5,2,1,1,1,5,5,500,2.0,78,Year round,Cave temple where the Buddhist Pali Canon was first written down.
+sembuwatta,Sembuwatta Lake & Pine Forest,Matale,Central,7.4417,80.6972,5,1,1,3,1,2,1,1,1,1000,3.0,84,Year round,Man-made mountain lake surrounded by pine forests and tea slopes.
+gadaladeniya,Gadaladeniya Vihara,Gampola,Central,7.2583,80.5564,2,1,5,1,1,1,1,5,4,500,1.5,75,Year round,14th-century South Indian stone architecture temple near Kandy.
+lankatilaka,Lankatilaka Vihara,Gampola,Central,7.2306,80.5647,3,1,5,2,1,1,1,5,4,500,2.0,77,Year round,Majestic 14th-century temple built atop the Rock of Panhalgala.
+embekke,Embekke Devalaya (Wood Carvings),Gampola,Central,7.2181,80.5678,2,1,5,1,1,1,2,5,3,500,2.0,80,Year round,14th-century shrine famous for intricate wooden pillar carvings.
+nawalapitiya_view,Nawalapitiya Cable Bridge & Hills,Nawalapitiya,Central,7.05,80.5333,4,1,1,3,1,1,1,1,1,0,2.0,72,Year round,Riverside hill town famous for tea estates and suspension bridges.
+hakgala_gardens,Hakgala Botanical Garden,Nuwara Eliya,Central,6.9272,80.8203,5,2,2,2,1,1,1,2,1,3000,2.5,83,Mar - May,Highland botanical garden situated beneath the Hakgala Rock.
+seetha_amman,Seetha Amman Temple,Nuwara Eliya,Central,6.9367,80.8122,2,1,4,1,1,1,2,5,5,2000,1.5,85,Year round,Hindu temple associated with the Ramayana epic near Hakgala.
+victoria_park,Victoria Park of Nuwara Eliya,Nuwara Eliya,Central,6.9667,80.7667,4,2,2,1,1,1,1,2,1,500,2.0,81,Mar - May,Well-manicured urban park popular for highland birdwatching.
+blue_field_tea,Blue Field Tea Factory,Ramboda,Central,7.0658,80.6869,4,1,3,2,1,3,3,3,1,1000,2.0,82,Year round,Working tea factory providing guided estate tours and tastings.
+pedro_tea,Pedro Tea Estate,Nuwara Eliya,Central,6.9742,80.8039,4,1,3,2,1,3,3,3,1,1000,2.0,83,Year round,Historic tea plantation producing fine Ceylon black tea since 1885.
+moon_plains,Moon Plains (Sandatenna),Nuwara Eliya,Central,6.9583,80.8167,5,3,1,4,1,1,1,1,1,1500,3.0,80,Year round,Highland plateau offering 360-degree views of major Sri Lanka peaks.
+lovers_leap,Lover's Leap Waterfall,Nuwara Eliya,Central,6.9681,80.7936,4,1,1,3,1,1,1,1,1,500,2.0,79,Year round,30m waterfall fed by streams from Sri Lanka's tallest peak.
+pidurutalagala,Pidurutalagala Peak View,Nuwara Eliya,Central,7.0008,80.7786,5,2,1,3,1,1,1,1,1,500,2.0,78,Year round,"Highest mountain peak in Sri Lanka (2,524m) summit viewpoint."
+nalanda_gedige,Nalanda Gedige,Matale,Central,7.6686,80.6439,2,1,5,1,1,1,1,5,3,500,1.5,76,Year round,Ancient stone image house blending Hindu and Buddhist styles.
+matale_spice,Matale Heritage Spice Gardens,Matale,Central,7.4667,80.6233,4,1,3,1,1,3,4,2,1,1000,2.0,81,Year round,"Guided tours of cinnamon, cardamom, nutmeg and herbal gardens."
+kundasale_river,Mahaweli River Walk Kundasale,Kundasale,Central,7.2833,80.6833,4,2,1,2,1,1,1,1,1,0,2.0,70,Year round,Scenic walking trails along Sri Lanka's longest river near Kandy.
+nelligala,Nelligala International Buddhist Centre,Muruthalawa,Central,7.2917,80.5583,4,1,4,2,1,1,1,2,5,500,2.0,88,Year round,Modern hilltop monastery featuring golden statues and mountain views.
+ranweli_spice,Ranweli Spice Garden,Matale,Central,7.4722,80.6267,4,1,3,1,1,3,4,2,1,1000,1.5,78,Year round,Educational herbal garden exhibiting indigenous spice plants.
+laxapana_falls,Laxapana Falls,Maskeliya,Central,6.9039,80.5003,5,1,1,4,1,1,1,1,1,500,2.5,81,Year round,126m high waterfall power station site surrounded by tea hills.
+aberdeen_falls,Aberdeen Falls,Ginigathena,Central,6.9833,80.5,5,1,1,4,1,1,1,1,1,500,3.0,82,Year round,98m waterfall with a natural swimming pool in Nuwara Eliya district.
+gartmore_falls,Gartmore (Sri Pada) Falls,Maskeliya,Central,6.8167,80.55,5,1,1,4,1,1,1,1,1,0,2.5,79,Year round,Twin waterfalls cascading directly into Maskeliya Reservoir.
+maskeliya_lake,Maskeliya Reservoir & Dam,Maskeliya,Central,6.8333,80.5667,4,1,1,2,1,1,1,1,1,0,2.0,77,Year round,Picturesque mountain lake mirroring Adam's Peak on clear days.
+keppetipola_walk,Keppetipola Tea Trail,Welimada,Central,6.9,80.9,4,1,2,2,1,1,1,2,1,0,2.0,71,Year round,Historic highland tea trail and agricultural research station.
+chupatana,Chupatana Waterfall,Matale,Central,7.5,80.75,4,1,1,3,1,1,1,1,1,0,2.5,68,Year round,Hidden waterfall trail inside the Knuckles mountain range.
+bambarakanda_view,Bambarakanda Viewpoint Central,Haldummulla,Central,6.7725,80.8358,5,1,1,4,1,1,1,1,1,500,2.5,84,Year round,Upper ridge outlook toward Sri Lanka's tallest waterfall (263m).
+hunas_falls,Hunas Falls & Lake,Elkaduwa,Central,7.4,80.6833,5,1,1,3,1,2,1,1,1,1000,2.5,82,Year round,Waterfall and landscaped lake gardens tucked into Matale tea slopes.
+kandy_cultural_centre,Kandy Cultural Centre & Lake Walk,Kandy,Central,7.2944,80.6383,2,1,5,1,1,3,4,4,2,2500,2.0,87,Year round,Traditional Kandyan dancing hall showcasing firewalking and drumming.
+bahirawakanda,Bahirawakanda Buddha Statue,Kandy,Central,7.2972,80.6306,3,1,4,2,1,1,1,2,4,500,1.5,85,Year round,Giant 27m white Buddha statue overlooking Kandy city from a hill.
+wewala_lake,Wewala Lake & Sanctuary,Dambulla,Central,7.87,80.63,4,3,1,2,1,1,1,1,1,0,2.0,70,Year round,Quiet rural lake near Dambulla ideal for birdwatching.
+kalu_diya_pokuna,Kaludiya Pokuna Monastery,Dambulla,Central,7.7833,80.7,4,2,4,3,1,1,1,5,3,500,2.5,75,Year round,Black Water Pool forest monastery ruins near Dambulla.
+inamuwa_craft,Inamaluwa Wood Craft Village,Dambulla,Central,7.9,80.7,2,1,4,1,1,2,5,2,1,0,1.5,73,Year round,Artisan village showcasing traditional Sri Lankan wood carving.
+madugoda_pass,Madugoda Pass Viewpoint,Matale,Central,7.3333,80.85,5,1,1,4,1,1,1,1,1,0,1.5,74,Year round,Scenic hair-pin bend highway pass connecting Kandy to Mahiyangana.
+yala_block1,Yala National Park,Yala,Southern,6.3728,81.5016,5,5,1,4,2,1,1,2,1,15000,6.0,95,Feb - Jul,Leopard safari park with elephants and lagoon birdlife.
+galle_dutch_fort,Galle Dutch Fort,Galle,Southern,6.0262,80.2169,3,1,5,2,4,5,5,5,2,1500,3.5,94,Nov - Apr,UNESCO fort town with colonial streets and ramparts.
+mirissa_whales,Mirissa Whale Watching & Beach,Mirissa,Southern,5.9449,80.4594,4,5,1,4,5,4,2,1,1,9000,5.0,92,Nov - Apr,Blue whale watching harbor and surf beach.
+unawatuna_bay,Unawatuna Bay Beach,Galle,Southern,5.9784,80.2494,4,2,2,3,5,4,3,1,1,2000,4.0,90,Nov - Apr,Sheltered swimming beach with seafood dining.
+hikkaduwa_coral,Hikkaduwa Coral Reef,Hikkaduwa,Southern,6.1394,80.1011,4,4,1,4,5,4,3,1,1,3500,4.0,87,Nov - Apr,Turtle feeding shoreline and coral snorkelling.
+tangalle_coves,Tangalle Goyambokka Coves,Tangalle,Southern,6.0244,80.7933,5,3,1,3,5,3,1,1,1,1000,4.0,85,Nov - Apr,Quiet turquoise coves backed by palm groves.
+weligama_surf,Weligama Bay Surf Point,Weligama,Southern,5.9722,80.4289,4,1,2,5,5,3,2,1,1,3000,3.5,88,Nov - Apr,Beginner surf bay with Taprobane Island.
+bundala_ramsar,Bundala Wetland Park,Hambantota,Southern,6.1833,81.2167,5,5,1,3,2,1,1,1,1,10000,4.5,78,Sep - Mar,UNESCO wetland hosting thousands of flamingos.
+hummanaya,Hummanaya Natural Blowhole,Kudawella,Southern,5.9625,80.7028,4,1,1,2,3,1,1,1,1,500,1.5,76,May - Sep,Natural ocean blowhole spraying 30m high.
+matara_star_fort,Matara Paravi Duwa & Star Fort,Matara,Southern,5.9485,80.5353,3,1,4,1,4,2,2,4,4,1000,2.5,79,Nov - Apr,Island temple accessed via cable bridge.
+koggala_lake,Koggala Lake & Martin Wickramasinghe Museum,Koggala,Southern,5.9961,80.3275,4,2,4,2,4,2,2,4,1,1500,3.0,81,Nov - Apr,Lake boat tours and folk culture museum.
+bentota_beach,Bentota Beach & Water Sports,Bentota,Southern,6.4239,80.0003,4,2,1,5,5,4,3,1,1,4000,4.0,89,Nov - Apr,Water sports hub with jet-skiing and river safaris.
+madu_river,Madu River Safari Balapitiya,Balapitiya,Southern,6.2736,80.0381,4,3,2,3,3,2,2,2,1,3000,2.5,84,Year round,Mangrove lagoon boat ride with cinnamon island.
+ridiyagama_safari,Ridiyagama Open Safari Park,Ambalantota,Southern,6.2236,81.0028,4,5,1,2,1,1,1,1,1,4000,3.5,80,Year round,Drive-through lion and herbivore open safari.
+dondra_lighthouse,Dondra Head Lighthouse,Matara,Southern,5.9242,80.5911,4,1,2,2,4,1,1,3,1,500,1.5,82,Nov - Apr,Southernmost tip of Sri Lanka with 49m lighthouse.
+mulkirigala,Mulkirigala Rock Temple,Mulkirigala,Southern,6.1625,80.7719,4,1,5,3,1,1,1,5,5,1000,3.0,83,Year round,Ancient cliffside monastery carved into a 200m rock.
+hiriketiya_bay,Hiriketiya Horseshoe Bay,Dikwella,Southern,5.9647,80.6836,5,1,1,4,5,4,2,1,1,2000,4.0,91,Nov - Apr,Trendy horseshoe beach bay famous for surf and cafes.
+kudawella_beach,Kudawella Beach,Kudawella,Southern,5.96,80.7,4,1,1,2,5,2,1,1,1,0,2.5,75,Nov - Apr,Unspoiled beach bay next to the blowhole.
+polhena_beach,Polhena Turtle Reef Beach,Matara,Southern,5.9389,80.5264,4,3,1,3,5,3,1,1,1,500,3.0,80,Nov - Apr,Shallow reef-protected beach where sea turtles swim.
+talalla_beach,Talalla Quiet Bay,Gandara,Southern,5.9556,80.6278,5,1,1,2,5,2,1,1,1,0,3.0,79,Nov - Apr,Serene crescent bay away from commercial crowds.
+madiha_beach,Madiha Surf & Turtle Point,Matara,Southern,5.9417,80.5083,4,2,1,4,5,4,1,1,1,0,3.0,82,Nov - Apr,Reef surf break and sunset beachfront bars.
+midigama_surf,Midigama Surf Village,Midigama,Southern,5.9667,80.3833,4,1,1,5,5,3,1,1,1,0,3.5,81,Nov - Apr,Authentic surf spot famous for Lazy Left wave.
+ahangama_beach,Ahangama Stilt Fishermen Point,Ahangama,Southern,5.975,80.3667,4,2,3,2,5,3,2,3,1,500,2.0,86,Nov - Apr,Iconic spot to observe traditional stilt fishermen.
+habaraduwa_turtle,Habaraduwa Sea Turtle Hatchery,Habaraduwa,Southern,5.9972,80.3028,3,4,1,1,4,1,1,1,1,1000,1.5,83,Year round,Conservation center rescuing injured sea turtles.
+rumassala_hill,Rumassala Sanctuary & Japanese Peace Pagoda,Galle,Southern,6.0125,80.2458,5,2,3,3,4,2,1,3,4,500,2.5,85,Nov - Apr,Forested promontory mythically linked to the Ramayana.
+ambalangoda_mask,Ambalangoda Ariyapala Mask Museum,Ambalangoda,Southern,6.2361,80.0544,2,1,5,1,2,2,4,4,1,500,2.0,78,Year round,Traditional Sri Lankan wooden devil mask workshop.
+kosgoda_hatchery,Kosgoda Sea Turtle Conservation Project,Kosgoda,Southern,6.3361,80.0278,3,4,1,1,4,1,1,1,1,1000,1.5,84,Year round,Nesting beach project safeguarding sea turtle eggs.
+ahungalla_beach,Ahungalla Palm Beach,Ahungalla,Southern,6.3117,80.0322,4,1,1,2,5,3,1,1,1,0,3.0,77,Nov - Apr,Wide golden sand beach lined with luxury resorts.
+tissa_lake,Tissamaharama Lake (Tissa Wewa),Tissamaharama,Southern,6.2833,81.2833,4,3,2,2,1,2,1,3,2,0,2.0,80,Year round,Ancient reservoir surrounded by giant fruit bat trees.
+kirinda_temple,Kirinda Rock Temple & Beach,Kirinda,Southern,6.2125,81.3361,4,1,4,2,4,1,1,4,3,500,2.0,78,Year round,Coastal rock temple where Queen Viharamahadevi landed.
+kalametiya_sanctuary,Kalametiya Bird Sanctuary Boat Tour,Hungama,Southern,6.0944,80.9389,5,5,1,2,2,1,1,1,1,3500,3.0,76,Sep - Mar,Coastal lagoon boat safari for wetland birdwatching.
+uthpalawanna_devalaya,Devinuwara Upulvan Devalaya,Dondra,Southern,5.925,80.5889,2,1,4,1,3,1,1,5,5,500,1.5,75,Year round,Historic temple complex dedicated to god Upulvan.
+galle_lighthouse,Galle Fort Lighthouse,Galle,Southern,6.0256,80.2181,3,1,3,1,4,3,3,4,1,0,1.0,92,Nov - Apr,Iconic 1939 white lighthouse standing on Galle rampart.
+koggala_stilt,Koggala Stilt Fishing Point,Koggala,Southern,5.9917,80.3167,4,1,3,2,4,2,2,3,1,500,1.5,84,Nov - Apr,Traditional stilt fishing observation point on the reef.
+seenigama_temple,Seenigama Devalaya Island Temple,Hikkaduwa,Southern,6.1556,80.0917,3,1,4,1,4,1,1,3,4,500,1.5,77,Year round,Island shrine located on a rocky islet off Hikkaduwa.
+dodanwaluwa_temple,Dodanwaluwa Temple,Galle,Southern,6.05,80.2,2,1,4,1,1,1,1,4,3,0,1.5,70,Year round,Quiet historic temple nestled in Galle countryside.
+yatagala_cave,Yatagala Raja Maha Vihara,Unawatuna,Southern,6.0,80.2583,3,1,5,2,1,1,1,5,4,500,2.0,79,Year round,"2,300-year-old rock cave temple near Unawatuna."
+boossa_beach,Boossa Beach & Village,Boossa,Southern,6.0833,80.15,4,1,1,2,4,2,1,1,1,0,2.0,72,Nov - Apr,Quiet palm beach north of Galle fort.
+gintota_river,Gintota River Estuary Kayaking,Galle,Southern,6.0667,80.1833,4,2,1,4,3,1,1,1,1,2500,2.5,73,Nov - Apr,Estuary mangrove kayaking where Gintota river meets ocean.
+pitiwella_beach,Pitiwella Beach,Pitiwella,Southern,6.075,80.1667,4,1,1,2,4,2,1,1,1,0,2.0,71,Nov - Apr,Lesser-known serene beach between Hikkaduwa and Galle.
+kabalana_beach,Kabalana Main Surf Point,Ahangama,Southern,5.9722,80.3556,4,1,1,5,5,3,1,1,1,0,3.5,85,Nov - Apr,Famous A-frame wave surf break for experienced surfers.
+skinny_beach,Skinny Beach Cove,Unawatuna,Southern,5.98,80.252,4,1,1,2,5,3,1,1,1,0,2.5,78,Nov - Apr,Small secluded sandy bay near Wijaya beach.
+wijaya_beach,Wijaya Beach & Turtle Lagoon,Unawatuna,Southern,5.9792,80.2514,4,3,1,3,5,4,2,1,1,1000,3.5,89,Nov - Apr,Reef lagoon famous for swimming alongside giant sea turtles.
+dalawella_swing,Dalawella Palm Tree Swing,Unawatuna,Southern,5.9806,80.2486,4,1,1,3,5,3,1,1,1,500,1.5,88,Nov - Apr,Viral coconut palm rope swing over the ocean lagoon.
+dikwella_beach,Dikwella Long Beach,Dikwella,Southern,5.9611,80.6972,4,1,1,3,5,3,1,1,1,0,3.5,80,Nov - Apr,Wide sandy crescent bay ideal for swimming and bodyboarding.
+wewurukannala,Wewurukannala Vihara (Giant Buddha),Dikwella,Southern,5.975,80.7028,2,1,4,1,1,1,1,3,4,500,2.0,82,Year round,50-meter seated Buddha statue with an illustrated underworld tunnel.
+nilwella_beach,Nilwella Blue Beach Island,Dikwella,Southern,5.9556,80.7167,5,1,1,3,5,2,1,1,1,1000,3.0,84,Nov - Apr,Sandbar island connected to shore at low tide.
+kalametiya_lagoon,Kalametiya Mangrove Lagoon,Hungama,Southern,6.09,80.94,5,4,1,3,3,1,1,1,1,2000,3.0,75,Sep - Mar,Ecological wetland sanctuary for aquatic life.
+ranminitenna,Ranminitenna Tele Cinema Village,Tissamaharama,Southern,6.27,81.24,2,1,4,1,1,1,1,2,1,1000,2.5,71,Year round,Film set recreation village representing colonial Sri Lanka.
+yala_block5,Yala Block 5 (Katagamuwa Entrance),Tissamaharama,Southern,6.4,81.4,5,5,1,4,1,1,1,1,1,12000,5.0,81,Feb - Jul,Less crowded northern entrance to Yala National Park.
+gangaramaya,Gangaramaya Temple,Colombo,Western,6.9169,79.8564,1,1,5,1,1,2,3,4,5,2000,2.0,89,Year round,Urban temple complex with museum artifacts on Beira Lake.
+one_galle_face_mall,One Galle Face Mall,Colombo,Western,6.9268,79.8436,1,1,3,1,2,5,5,2,1,3000,3.0,86,Year round,Seven-story mall and food hall facing Galle Face Green.
+colombo_national_museum,National Museum of Colombo,Colombo,Western,6.9107,79.8612,1,1,5,1,1,1,1,5,2,1500,3.0,82,Year round,Principal museum showcasing Kandyan royal thrones and bronzes.
+lotus_tower_colombo,Colombo Lotus Tower,Colombo,Western,6.9272,79.8578,1,1,3,2,1,4,3,1,1,6000,2.0,91,Year round,350m tower featuring a revolving restaurant and observation deck.
+kelaniya_viharaya,Kelaniya Raja Maha Vihara,Kelaniya,Western,6.9583,79.9208,2,1,5,1,1,1,1,5,5,1000,2.0,84,Year round,Sacred temple blessed by Buddha's 3rd Sri Lanka visit.
+mount_lavinia_beach,Mount Lavinia Beach,Mount Lavinia,Western,6.837,79.8647,3,1,3,2,4,4,2,4,1,2000,3.5,83,Nov - Apr,Colonial beach town with sunset seafood restaurants.
+negombo_beach_strip,Negombo Beach & Fish Market,Negombo,Western,7.2286,79.8397,3,2,3,3,4,4,3,3,2,2000,3.0,85,Nov - Apr,Coastal city near airport known for lagoon catamarans.
+muthurajawela_wetland,Muthurajawela Wetland Sanctuary,Gampaha,Western,7.0333,79.8667,5,4,1,3,1,1,1,1,1,4000,3.0,75,Year round,"Boat safaris observing water monitors, birds and mangroves."
+independence_square,Independence Memorial Hall,Colombo,Western,6.9042,79.8672,2,1,4,1,1,2,2,5,1,0,1.5,87,Year round,National monument marking Sri Lanka's independence in 1948.
+viharamahadevi_park,Viharamahadevi Park,Colombo,Western,6.9139,79.8617,4,2,2,1,1,2,2,2,1,0,2.0,83,Year round,Colombo's oldest public park featuring flowering trees and fountains.
+pettah_market,Pettah Floating Market & Bazaar,Colombo,Western,6.9367,79.8528,1,1,4,2,1,4,5,3,1,0,2.5,80,Year round,Bustling open-air shopping district and floating canal stalls.
+dutch_hospital,Dutch Hospital Shopping Precinct,Colombo,Western,6.9339,79.8436,1,1,4,1,1,5,4,5,1,0,2.0,88,Year round,Restored 17th-century Dutch building turned dining hub.
+galle_face_green,Galle Face Green Promenade,Colombo,Western,6.9236,79.8447,3,1,3,1,3,4,2,3,1,0,2.0,90,Year round,Oceanfront urban park famous for kite flying and street food.
+beddagana_wetland,Beddagana Wetland Park,Kotte,Western,6.8917,79.9111,5,4,1,2,1,1,1,1,1,500,2.0,81,Year round,Elevated boardwalk trail through suburban marshlands.
+diyiatha_uyana,Diyatha Uyana Park & Waterworld,Battaramulla,Western,6.8967,79.9189,4,2,2,1,1,3,3,1,1,500,2.5,84,Year round,Lakeside park with flower markets and aquarium complex.
+kalutara_bodhiya,Kalutara Bodhiya & Stupa,Kalutara,Western,6.5861,79.9606,2,1,4,1,2,1,2,4,5,500,1.5,85,Year round,World's only hollow Buddhist stupa located beside Kalu Ganga.
+richmond_castle,Richmond Castle Kalutara,Kalutara,Western,6.5772,79.9822,3,1,4,1,1,1,1,5,1,1000,2.0,78,Year round,2-story Edwardian mansion built in 1900 with Indian teak wood.
+beruwala_barberyn,Barberyn Lighthouse Island,Beruwala,Western,6.4633,79.9678,4,1,2,3,4,1,1,3,1,1500,2.5,77,Nov - Apr,Islet lighthouse accessible by boat off Beruwala coast.
+brief_garden,Brief Garden by Bevis Bawa,Bentota,Western,6.45,80.0333,5,1,4,1,1,2,1,3,1,2000,2.0,82,Year round,Landscaped tropical estate garden created by artist Bevis Bawa.
+seethawaka_wetland,Seethawaka Botanical Garden,Avissawella,Western,6.9472,80.2089,5,2,2,2,1,2,1,1,1,1000,3.0,79,Year round,Highland botanical reserve featuring temperate zone flora.
+labugama_kalatuwawa,Labugama-Kalatuwawa Forest Reserve,Hanwella,Western,6.8333,80.1833,5,3,1,3,1,1,1,1,1,500,3.0,72,Year round,Protected forest watershed reservoir serving Colombo city.
+attidiya_sanctuary,Attidiya Bird Sanctuary,Dehiwala,Western,6.8444,79.8889,5,4,1,1,1,1,1,1,1,0,2.0,70,Year round,Suburban marshland bird sanctuary along Bolgoda canal.
+bolgoda_lake,Bolgoda Lake Water Sports,Moratuwa,Western,6.7167,79.9167,4,2,1,4,1,2,1,1,1,3000,3.0,76,Year round,Largest natural lake in Sri Lanka popular for jet-skiing.
+dehiwala_zoo,National Zoological Gardens Dehiwala,Dehiwala,Western,6.8567,79.8744,3,5,1,1,1,2,2,1,1,3000,3.5,83,Year round,"Sri Lanka's oldest zoo hosting mammals, birds and aquarium."
+planetarium_colombo,Sri Lanka Planetarium,Colombo,Western,6.9017,79.8608,1,1,3,1,1,1,1,2,1,500,1.5,75,Year round,Public planetarium dome located at Colombo University.
+old_parliament,Old Parliament Building,Colombo,Western,6.9328,79.8425,1,1,4,1,1,1,1,5,1,0,1.0,81,Year round,Neoclassical 1930 building housing the Presidential Secretariat.
+red_mosque,Jami Ul-Alfar Mosque (Red Mosque),Colombo,Western,6.9383,79.8517,1,1,5,1,1,2,3,4,5,500,1.0,89,Year round,Iconic red-and-white candy-striped mosque in Pettah.
+st_lucys_cathedral,St. Lucia's Cathedral Kotahena,Colombo,Western,6.9486,79.8603,1,1,4,1,1,1,1,4,5,0,1.0,78,Year round,Seat of the Roman Catholic Archbishop of Colombo.
+wolvendaal_church,Wolvendaal Dutch Church,Colombo,Western,6.9408,79.8567,1,1,4,1,1,1,1,5,4,0,1.0,76,Year round,1749 Dutch Doric church holding colonial tombstones.
+sambodhi_chaithya,Sambodhi Chaithya Stupa,Colombo,Western,6.9361,79.8406,2,1,3,1,2,1,1,2,4,0,1.0,77,Year round,Elevated maritime stupa built on concrete arches at Colombo Port.
+crow_island,Crow Island Beach Park,Mattakkuliya,Western,6.9667,79.8667,3,1,1,2,3,2,1,1,1,0,2.0,72,Year round,Coastal urban beach park with sea view walking tracks.
+negombo_dutch_fort,Negombo Dutch Fort Ruins,Negombo,Western,7.2083,79.8333,1,1,3,1,2,2,3,4,1,0,1.0,74,Year round,17th-century Dutch gateway ruins now part of Negombo prison.
+loluwagoda_rubber,Loluwagoda Rubber Estate Trail,Mirigama,Western,7.2333,80.1333,4,1,2,2,1,1,1,2,1,0,2.0,69,Year round,Sprawling rubber plantation trails in rural Gampaha.
+guruge_nature_park,Guruge Nature Park,Ja-Ela,Western,7.0833,79.8833,3,2,3,2,1,3,2,2,1,1000,3.0,73,Year round,Theme park showcasing ancient Sri Lankan kingdom replicas.
+horagolla_national_park,Horagolla National Park,Nittambuwa,Western,7.15,80.0167,5,4,1,2,1,1,1,1,1,1500,2.0,71,Year round,Smallest national park in Sri Lanka protecting dipterocarp trees.
+ranpokunawila,Ranpokunawila Ancient Tank,Mirigama,Western,7.2,80.1,4,1,2,1,1,1,1,3,1,0,1.5,68,Year round,Historic irrigation reservoir surrounded by paddy fields.
+panadura_beach,Panadura Beach & Estuary,Panadura,Western,6.7167,79.9,3,1,1,2,4,2,2,1,1,0,2.5,75,Nov - Apr,Long sandy beach town located south of Colombo.
+wadduwa_beach,Wadduwa Coconut Beach Strip,Wadduwa,Western,6.6667,79.9333,4,1,1,2,4,3,2,1,1,0,3.0,78,Nov - Apr,Palm-lined beach resort town known for toddy tapping.
+kalutara_castle_view,Kalu Ganga River Mouth,Kalutara,Western,6.5833,79.95,4,1,1,3,3,2,1,1,1,0,2.0,74,Year round,Estuary where Kalu Ganga flows into the Indian Ocean.
+pasyala_spice,Pasyala Fruit & Spice Market,Pasyala,Western,7.1333,80.1167,2,1,2,1,1,4,4,1,1,0,1.5,72,Year round,"Roadside market famous for fresh rambutan, cashews and spices."
+warana_cave_temple,Warana Rajamaha Viharaya,Thihariya,Western,7.1167,80.0667,3,1,5,2,1,1,1,5,4,500,2.0,76,Year round,Ancient rock cave temple with King Walagamba connections.
+pilikuttuwa_cave,Pilikuttuwa Raja Maha Vihara,Kiribathgoda,Western,7.05,79.9833,4,1,5,2,1,1,1,5,4,500,2.5,77,Year round,Forest cave temple complex containing 99 natural rock caves.
+maligatenna_monastery,Maligatenna Rajamaha Viharaya,Gampaha,Western,7.0833,80.05,4,1,4,3,1,1,1,4,4,500,2.5,76,Year round,Hilltop rock cave monastery offering 360-degree Gampaha views.
+jaela_canal,Ja-Ela Canal Walk,Ja-Ela,Western,7.075,79.8917,3,1,1,2,1,2,2,2,1,0,1.5,69,Year round,Scenic Dutch canal trail running through Ja-Ela town.
+seeduwa_lagoon,Seeduwa Lagoon Promenade,Seeduwa,Western,7.1167,79.8833,3,2,1,2,2,2,1,1,1,0,1.5,70,Year round,Lagoon view park located near CMB international airport.
+moratuwa_craft,Moratuwa Woodcraft Market,Moratuwa,Western,6.775,79.8833,1,1,4,1,1,2,5,3,1,0,2.0,73,Year round,Center of Sri Lanka's traditional carpentry and furniture craft.
+weligampitiya_church,St. Anne's Church Weligampitiya,Ja-Ela,Western,7.0889,79.8944,1,1,3,1,1,1,1,3,4,0,1.0,71,Year round,Historic Catholic church in Gampaha district.
+angoda_marsh,Angoda Marsh Walkway,Colombo,Western,6.9167,79.9167,4,3,1,1,1,1,1,1,1,0,1.5,68,Year round,Suburban wetland park for evening walking.
+kotte_ruins,Kotte Kingdom Rampart Wall Ruins,Kotte,Western,6.8917,79.9028,1,1,4,1,1,1,1,5,1,0,1.5,72,Year round,15th-century fortified stone rampart remnants of Kotte Kingdom.
+soysapura_beach,Soysapura Beach Strip,Moratuwa,Western,6.7917,79.875,3,1,1,2,3,2,1,1,1,0,2.0,71,Nov - Apr,Local beach stretch south of Mount Lavinia.
+jaffna_dutch_fort,Jaffna Fort,Jaffna,Northern,9.6608,80.0092,2,1,4,2,2,2,2,5,1,1000,2.5,86,May - Sep,Star-shaped Portuguese and Dutch colonial fort.
+nallur_kandaswamy,Nallur Kandaswamy Kovil,Jaffna,Northern,9.6744,80.0294,1,1,5,1,1,2,2,5,5,500,2.0,90,May - Sep,Golden gopuram Hindu temple complex.
+delft_wild_horses,Delft Island & Wild Horses,Jaffna,Northern,9.5167,79.6833,4,4,4,4,3,1,1,4,1,2500,6.0,81,May - Sep,Remote island famous for wild horses and baobab trees.
+keerimalai_tank,Keerimalai Springs & Naguleswaram Kovil,Jaffna,Northern,9.8144,80.0153,3,1,4,1,3,1,1,4,5,500,2.0,77,May - Sep,Natural mineral spring pool beside ancient Shiva Kovil.
+casuarina_sand,Casuarina Beach Karainagar,Jaffna,Northern,9.7714,79.8867,4,1,1,2,5,2,1,1,1,1000,3.5,83,May - Sep,Shallow white sand beach lined with casuarina trees.
+mannar_baobab_tree,Mannar Baobab Tree & Dutch Fort,Mannar,Northern,8.9786,79.9142,3,2,3,2,2,1,1,4,1,500,2.5,74,May - Sep,700-year-old baobab tree planted by Arab traders.
+point_pedro_tip,Point Pedro Northernmost Tip,Jaffna,Northern,9.8272,80.2458,3,1,2,2,4,1,1,3,1,500,1.5,78,May - Sep,Geographical northernmost point of Sri Lanka with lighthouse.
+nainativu_island,Nainativu Nagapooshani Kovil & Vihara,Jaffna,Northern,9.6167,79.7833,3,1,5,2,3,1,1,4,5,1000,4.0,84,May - Sep,Sacred island hosting Nagapooshani Kovil and Nagadeepa Vihara.
+kantharodai_stupas,Kantharodai (Kadurugoda) Ancient Stupas,Jaffna,Northern,9.7417,80.0069,2,1,5,1,1,1,1,5,4,500,2.0,79,May - Sep,Group of 61 miniature stone stupas dating to Anuradhapura era.
+elephant_pass,Elephant Pass War Memorial,Kilinochchi,Northern,9.5333,80.4,2,1,3,1,1,1,1,5,1,0,1.5,80,May - Sep,Historic causeway connecting Jaffna peninsula to mainland.
+thiruketheeswaram,Thiruketheeswaram Kovil,Mannar,Northern,8.9583,79.9833,2,1,5,1,2,1,1,5,5,500,2.0,78,May - Sep,Ancient Ishwaram temple dedicated to Lord Shiva in Mannar.
+talaimannar_pier,Talaimannar Pier & Lighthouse,Mannar,Northern,9.1,79.7167,3,1,2,2,4,1,1,4,1,0,2.0,76,May - Sep,Old ferry pier endpoint facing India's Rameshwaram coast.
+chundikulam_sanctuary,Chundikulam National Park,Kilinochchi,Northern,9.4833,80.6,5,5,1,3,3,1,1,1,1,3000,4.5,72,May - Sep,Coastal lagoon wetland sanctuary for migratory flamingos.
+jaffna_library,Jaffna Public Library,Jaffna,Northern,9.6631,80.0125,1,1,5,1,1,1,1,5,1,0,1.5,85,May - Sep,Iconic white neoclassical library rebuilt after historic 1981 burn.
+mantai_ruins,Mantai Ancient Port Ruins,Mannar,Northern,8.9667,79.9833,1,1,4,1,2,1,1,5,1,500,2.0,70,May - Sep,"Ancient Silk Road trade port ruins dating back over 2,000 years."
+mullaitivu_beach,Mullaitivu Beach,Mullaitivu,Northern,9.2667,80.8167,4,1,1,2,5,2,1,2,1,0,3.0,73,May - Sep,Unspoiled east-coast beach strip in Mullaitivu district.
+vavuniya_archaeological,Vavuniya Archaeological Museum,Vavuniya,Northern,8.7514,80.4972,1,1,4,1,1,1,1,5,1,500,1.5,71,Year round,Regional museum exhibiting Hindu and Buddhist stone sculptures.
+madhu_church,Shrine of Our Lady of Madhu,Mannar,Northern,8.8583,80.2056,2,1,4,1,1,1,1,4,5,500,2.0,83,Year round,Sri Lanka's most famous Roman Catholic pilgrimage shrine in forest.
+charty_beach,Charty Beach Velanai,Jaffna,Northern,9.6167,79.9167,4,1,1,2,5,2,1,1,1,500,3.0,79,May - Sep,Popular shallow sandy beach on Velanai Island.
+karainagar_causeway,Karainagar Causeway View,Jaffna,Northern,9.7333,79.8833,4,2,1,2,3,1,1,1,1,0,1.5,75,May - Sep,Scenic highway causeway cutting through shallow Jaffna lagoon.
+sangupiddy_bridge,Sangupiddy Bridge,Pooneryn,Northern,9.5333,80.1333,4,1,2,2,2,1,1,2,1,0,1.5,77,May - Sep,Long bridge connecting Pooneryn to Jaffna peninsula.
+doric_house,Doric House Arippu,Mannar,Northern,8.7833,79.9167,3,1,2,2,4,1,1,5,1,0,1.5,72,May - Sep,Ruins of 1801 Greek-style mansion built by Governor Frederick North.
+adam_bridge,Adam's Bridge (Rama Setu) Sandbanks,Talaimannar,Northern,9.0833,79.6167,5,3,3,4,4,1,1,4,3,3000,4.0,80,May - Sep,Chain of limestone shoals between Sri Lanka and India.
+subrahmanya_kovil,Manipy Hindu Kovil,Jaffna,Northern,9.7,79.9833,1,1,4,1,1,1,1,4,4,0,1.5,73,May - Sep,Traditional Tamil Hindu temple in Manipy village.
+vavuniya_tank,Vavuniya Kulam Lake,Vavuniya,Northern,8.75,80.5,4,2,1,2,1,1,1,2,1,0,2.0,70,Year round,Central irrigation tank serving Vavuniya town.
+jamunari_bottomless,Yamuna Eri (Bottomless Well),Jaffna,Northern,9.68,80.03,3,1,3,1,1,1,1,4,2,0,1.0,74,May - Sep,Historic carved stone well linked to King Cinkaiariyan.
+mantai_tank,Giant's Tank (Yodha Wewa),Mannar,Northern,8.8667,80.0333,4,4,2,2,1,1,1,4,1,0,2.5,75,May - Sep,Massive ancient irrigation reservoir built by King Dhatusena.
+kilinochchi_water_tower,Kilinochchi Monument,Kilinochchi,Northern,9.3833,80.4,1,1,3,1,1,1,1,4,1,0,1.0,74,May - Sep,Fallen water tower memorial preserving war history.
+akkarayan_kulam,Akkarayan Kulam Reservoir,Kilinochchi,Northern,9.2833,80.3333,4,3,1,2,1,1,1,2,1,0,2.0,69,May - Sep,Large scenic reservoir in rural Kilinochchi district.
+karanthai_beach,Karanthai Beach,Mullaitivu,Northern,9.2,80.85,4,1,1,2,5,1,1,1,1,0,2.5,68,May - Sep,Quiet sandy stretch along Mullaitivu coast.
+vankalai_sanctuary,Vankalai Bird Sanctuary,Mannar,Northern,8.9,79.9167,5,5,1,2,3,1,1,1,1,1000,3.0,73,Nov - Mar,Ramsar wetland famous for wintering waterbird flocks.
+nayaru_lagoon,Nayaru Lagoon Estuary,Mullaitivu,Northern,9.1167,80.8667,4,3,1,2,3,1,1,1,1,0,2.5,71,May - Sep,Estuary lagoon rich in prawn fisheries and birdlife.
+kokkilai_sanctuary,Kokkilai Bird Sanctuary,Mullaitivu,Northern,9.0,80.9167,5,5,1,2,3,1,1,1,1,1000,3.0,72,May - Sep,Sanctuary for migratory pelicans and cormorants.
+kurumankadu,Kurumankadu Pillayar Temple,Vavuniya,Northern,8.76,80.49,1,1,4,1,1,1,1,3,4,0,1.0,69,Year round,Popular Ganesha Kovil in Vavuniya town.
+kytes_island,Kayts Island & Fort Hammenhiel,Jaffna,Northern,9.6833,79.8667,3,1,4,2,3,2,1,4,1,1500,3.5,78,May - Sep,Island fort converted into a naval heritage resort.
+karainagar_jetty,Karainagar Boat Jetty,Jaffna,Northern,9.75,79.87,3,1,2,2,4,2,1,1,1,0,1.5,71,May - Sep,Ferry departure point for Delft and surrounding islets.
+kankesanthurai_beach,Kankesanthurai (KKS) Beach,Jaffna,Northern,9.8089,80.0444,4,1,2,2,4,2,1,2,1,0,2.5,76,May - Sep,Port town beach in northernmost Jaffna.
+point_pedro_harbor,Point Pedro Fishing Harbor,Jaffna,Northern,9.825,80.2333,3,1,2,2,3,3,2,2,1,0,1.5,73,May - Sep,Active northern fishing harbor and market.
+chavakachcheri_market,Chavakachcheri Town Market,Jaffna,Northern,9.6583,80.1583,1,1,3,1,1,3,4,2,1,0,1.5,70,May - Sep,Historic market town on the Jaffna-Kandy A9 highway.
+arali_point,Arali Point Viewpoint,Jaffna,Northern,9.6833,79.9333,4,1,2,2,3,1,1,3,1,0,1.5,72,May - Sep,Memorial point overlooking the western Jaffna lagoon.
+punggudutivu,Pungudutivu Island Causeway,Jaffna,Northern,9.5833,79.8333,4,1,2,2,3,1,1,2,1,0,2.0,74,May - Sep,Stepping-stone island on the way to Kurikadduwan jetty.
+kurikadduwan_jetty,KKD Jetty (Ferry to Delft),Jaffna,Northern,9.57,79.81,3,1,2,2,3,2,1,1,1,0,1.5,77,May - Sep,Main boat launch terminal for Delft and Nainativu islands.
+velanai_beach,Velanai Island Coast,Jaffna,Northern,9.6333,79.9,4,1,1,2,4,2,1,1,1,0,2.0,71,May - Sep,Quiet coastline on Velanai island.
+analativu_island,Analativu Island Boat Hop,Jaffna,Northern,9.6667,79.7833,4,1,3,2,3,1,1,2,1,1000,4.0,70,May - Sep,Small peaceful inhabited island off Jaffna coast.
+eluvaitivu_island,Eluvaitivu Island,Jaffna,Northern,9.7,79.8,4,1,3,2,3,1,1,2,1,1000,3.5,68,May - Sep,Narrow secluded island accessible by local ferry.
+illuppaiadikkulam,Illuppaiadikkulam Tank,Vavuniya,Northern,8.8,80.45,4,2,1,1,1,1,1,2,1,0,2.0,67,Year round,Rural reservoir in northern interior.
+thantirimale_north,Tiriyai Girihandu Seya,Trincomalee border,Northern,8.8667,81.0,3,1,5,2,2,1,1,5,5,500,2.5,78,May - Sep,Ancient stupa believed to hold Buddha's hair relics.
+iranamadu_tank,Iranamadu Reservoir & Dam,Kilinochchi,Northern,9.3333,80.4167,4,2,2,2,1,1,1,3,1,0,2.5,76,May - Sep,Largest irrigation tank in Northern Province.
+skandapuram,Skandapuram Agricultural Lands,Kilinochchi,Northern,9.35,80.35,3,1,1,1,1,2,2,1,1,0,1.5,66,May - Sep,Farming countryside of Kilinochchi.
+vaddakkachchi,Vaddakkachchi Countryside,Kilinochchi,Northern,9.3667,80.45,3,1,1,1,1,1,1,1,1,0,1.5,65,May - Sep,Rural paddy field village near Iranamadu.
+nilaveli_beach,Nilaveli Beach & Pigeon Island,Trincomalee,Eastern,8.7167,81.2,5,4,1,4,5,3,1,1,1,5000,4.5,91,May - Sep,White sand beach with reef shark snorkeling.
+koneswaram,Koneswaram Temple (Swami Rock),Trincomalee,Eastern,8.5772,81.2433,4,2,5,2,3,2,2,5,5,1000,2.5,89,May - Sep,Clifftop Shiva Kovil overlooking Trincomalee harbor.
+arugam_surf,Arugam Bay Surf Point,Ampara,Eastern,6.8419,81.8328,4,3,1,5,5,4,2,1,1,4000,5.0,93,May - Sep,World-renowned right-point surf destination.
+pasikuda_bay,Pasikuda & Kalkudah Bay,Batticaloa,Eastern,7.9272,81.5622,4,1,1,3,5,3,1,1,1,2000,4.0,87,May - Sep,Shallow turquoise bay where you can walk out 500m.
+marble_beach_trinco,Marble Beach Trincomalee,Trincomalee,Eastern,8.5217,81.2158,5,2,1,2,5,2,1,1,1,1000,3.0,82,May - Sep,Pristine calm air-force managed cove.
+kumana_birds,Kumana National Park (Yala East),Ampara,Eastern,6.5167,81.7,5,5,1,4,2,1,1,2,1,12000,5.0,79,May - Sep,Famous bird nesting sanctuary and leopard park.
+kanniya_springs,Kanniya Hot Water Springs,Trincomalee,Eastern,8.6194,81.1764,3,1,3,1,1,1,2,4,3,500,1.5,80,May - Sep,Seven thermal hot water wells associated with King Ravana.
+fort_frederick,Fort Frederick Trincomalee,Trincomalee,Eastern,8.575,81.2333,3,3,4,1,3,2,2,5,1,500,2.0,84,May - Sep,Portuguese and Dutch fort where spotted deer roam freely.
+batticaloa_fort,Batticaloa Dutch Fort & Lagoon,Batticaloa,Eastern,7.7167,81.7,3,1,4,2,3,2,2,4,1,500,2.5,81,May - Sep,1628 coastal fort known for singing fish lagoon phenomenon.
+pottuvil_lagoon,Pottuvil Lagoon Eco Safari,Pottuvil,Eastern,6.8833,81.8333,5,4,1,3,3,1,1,1,1,3000,2.5,83,May - Sep,Canoe safari through mangroves to spot elephants and crocs.
+okanda_devalaya,Okanda Murugan Devalaya,Ampara,Eastern,6.6236,81.7875,4,3,4,2,4,1,1,4,5,500,2.0,77,May - Sep,Coastal shrine where Pada Yatra pilgrims begin Yala trek.
+deegawapi_stupa,Deegawapi Royal Dagoba,Ampara,Eastern,7.1667,81.8,2,1,5,1,1,1,1,5,5,500,2.0,76,Year round,Ancient 3rd-century BC stupa commissioned by King Saddhatissa.
+uppuveli_beach,Uppuveli Beach,Trincomalee,Eastern,8.6167,81.2167,4,1,1,3,5,4,2,1,1,0,3.5,85,May - Sep,Lively beach strip north of Trincomalee town.
+whiskey_point,Whiskey Point Surf Break,Pottuvil,Eastern,6.9167,81.8333,4,1,1,5,5,3,1,1,1,0,3.5,84,May - Sep,Popular beginner-friendly surf point north of Arugam Bay.
+peanut_farm_beach,Peanut Farm Beach,Pottuvil,Eastern,6.8,81.8333,5,2,1,4,5,2,1,1,1,0,3.5,82,May - Sep,Rustic beach cove with right-hand surf wave.
+elephant_rock_surf,Elephant Rock Beach & Sunset,Pottuvil,Eastern,6.8167,81.8333,5,2,1,4,5,2,1,1,1,0,3.0,86,May - Sep,Dramatic rock outcrop overlooking surf break and lagoon.
+kalkudah_beach,Kalkudah Beach,Batticaloa,Eastern,7.9167,81.5667,5,1,1,2,5,2,1,1,1,0,3.5,80,May - Sep,Long untouched palm beach adjacent to Pasikuda.
+batticaloa_lighthouse,Batticaloa Lighthouse,Batticaloa,Eastern,7.7333,81.7,4,1,2,1,4,1,1,3,1,0,1.5,78,May - Sep,28m high brick lighthouse standing at Palameenmadu estuary.
+kallady_bridge,Kallady Lady Manning Bridge,Batticaloa,Eastern,7.7083,81.7083,3,2,3,1,2,2,1,4,1,0,1.5,75,May - Sep,Historic 1928 bridge famous for sound of singing fish.
+seruwila_mangala,Seruwila Mangala Raja Maha Vihara,Trincomalee,Eastern,8.3667,81.3167,2,1,5,1,1,1,1,5,5,500,2.0,79,Year round,2nd-century BC sacred stupa enshrining Buddha's forehead relic.
+kantale_tank,Kantale Great Reservoir,Trincomalee,Eastern,8.35,81.0,4,2,2,2,1,1,1,4,1,0,2.0,76,Year round,Massive ancient reservoir built by King Aggabodhi II.
+muttur_jetty,Muttur Jetty & Bay,Trincomalee,Eastern,8.45,81.2667,4,1,2,2,4,2,1,2,1,0,2.0,72,May - Sep,Coastal town connected to Trincomalee by sea ferry.
+magul_maha_vihara,Magul Maha Viharaya,Lahugala,Eastern,6.8667,81.7333,3,3,5,1,1,1,1,5,4,500,2.0,77,Year round,Ancient forest monastery where King Kavantissa married Viharamahadevi.
+lahugala_park,Lahugala Kitulana National Park,Lahugala,Eastern,6.9,81.7167,5,5,1,3,1,1,1,1,1,6000,3.5,75,Year round,Smallest park famous for large herds of elephants grazing at Sanguankamankada.
+muhududu_maha_vihara,Muhudu Maha Viharaya,Pottuvil,Eastern,6.8722,81.8389,3,1,5,1,4,1,1,5,4,500,1.5,81,Year round,Ancient seaside temple ruins right on Pottuvil beach dunes.
+lighthouse_point_arugam,Lighthouse Point (Panama),Panama,Eastern,6.75,81.8167,4,2,1,4,5,1,1,2,1,0,3.0,78,May - Sep,Secluded surf beach near Panama village.
+panama_tank,Panama Wewa & Crocodile Lagoon,Panama,Eastern,6.7667,81.8,5,4,1,2,1,1,1,2,1,0,2.0,74,Year round,Freshwater reservoir home to mugger crocodiles.
+sangaman_kanda,Sangaman Kanda Easternmost Tip,Akkaraipattu,Eastern,7.0167,81.8667,4,1,2,2,4,1,1,2,1,0,1.5,73,May - Sep,Geographical easternmost tip of Sri Lanka with lighthouse ruins.
+valachchenai_harbor,Valachchenai Fishery Harbor,Batticaloa,Eastern,7.9167,81.5333,3,1,2,2,3,3,2,1,1,0,1.5,71,May - Sep,Major east-coast deep sea fishing port.
+vakarai_beach,Vakarai Beach,Batticaloa,Eastern,8.1333,81.4333,4,1,1,2,5,1,1,1,1,0,3.0,70,May - Sep,Quiet uncrowded beach north of Batticaloa.
+verugal_arugam,Verugal Aru Hindu Temple,Trincomalee,Eastern,8.25,81.3667,2,1,4,1,2,1,1,4,4,500,1.5,72,May - Sep,Historic Kovil located on the bank of Verugal river.
+ilankanthai_beach,Ilankanthai Red Rock Beach,Trincomalee,Eastern,8.65,81.1833,4,1,1,2,5,1,1,1,1,0,2.5,73,May - Sep,Lesser-known beach with unique red rock formations.
+sampur_lighthouse,Sampur Point Viewpoint,Trincomalee,Eastern,8.4833,81.2833,4,1,2,2,4,1,1,2,1,0,2.0,71,May - Sep,Scenic headland entrance to Koddiyar Bay.
+clappenburg_bay,Clappenburg Bay,Trincomalee,Eastern,8.5333,81.2333,4,1,1,2,4,2,1,1,1,0,2.0,72,May - Sep,Tranquil inner bay of Trincomalee harbor.
+diamond_hill,Diamond Hill Trincomalee,Trincomalee,Eastern,8.55,81.2167,4,1,1,3,1,1,1,2,1,0,2.0,70,May - Sep,Panoramic viewpoint hill overlooking Trincomalee town.
+pigeon_island_reef,Pigeon Island Marine Sanctuary,Nilaveli,Eastern,8.718,81.201,5,5,1,5,5,1,1,1,1,6000,4.0,92,May - Sep,Islet marine reserve for snorkeling with live coral and sharks.
+velgam_vehera,Velgam Vehera (Vilgam Rajamaha Viharaya),Trincomalee,Eastern,8.6667,81.1333,2,1,5,1,1,1,1,5,4,500,2.0,75,Year round,Ancient Buddhist temple protected even during Chola Hindu rule.
+seruwila_tank,Allai Reservoir,Trincomalee,Eastern,8.35,81.2833,4,3,1,2,1,1,1,2,1,0,2.0,68,Year round,Large agricultural tank near Seruwila temple.
+panama_beach,Panama Village Beach,Panama,Eastern,6.755,81.81,4,1,2,3,5,2,1,1,1,0,3.0,76,May - Sep,Secluded coastal fishing beach near Yala East.
+urani_lagoon,Urani Lagoon Walk,Pottuvil,Eastern,6.89,81.82,4,3,1,2,3,1,1,1,1,0,2.0,72,May - Sep,Mangrove estuary where wild elephants cross.
+komari_beach,Komari Lighthouse Beach,Pottuvil,Eastern,7.0,81.85,4,1,1,3,5,1,1,2,1,0,3.0,74,May - Sep,Untouched surf beach with old lighthouse ruins.
+tirrukkovil_temple,Tirrukkovil Sri Sithira Velayutha Kovil,Tirrukkovil,Eastern,7.1167,81.85,2,1,4,1,3,1,1,4,4,500,1.5,73,May - Sep,Ancient Hindu Murugan Kovil on eastern coast.
+thambiluvil_beach,Thambiluvil Beach,Akkaraipattu,Eastern,7.1333,81.85,4,1,1,2,5,1,1,1,1,0,2.5,71,May - Sep,Wide sandy east-coast beach.
+kalmunai_beach,Kalmunai Beach Park,Kalmunai,Eastern,7.4167,81.8333,3,1,1,2,4,3,2,1,1,0,2.0,73,May - Sep,Coastal park in Kalmunai city.
+kaluwanchikudy_beach,Kaluwanchikudy Beach,Batticaloa,Eastern,7.5333,81.7833,4,1,1,2,4,2,1,1,1,0,2.0,70,May - Sep,Local palm-lined beach in Batticaloa district.
+unnichchai_tank,Unnichchai Tank Reservoir,Batticaloa,Eastern,7.6833,81.5333,4,2,1,2,1,1,1,2,1,0,2.5,69,Year round,Massive irrigation reservoir in Batticaloa interior.
+vakare_lagoon,Vakarai Estuary Lagoon,Batticaloa,Eastern,8.14,81.42,4,3,1,2,3,1,1,1,1,0,2.0,68,May - Sep,Tranquil lagoon rich in birdlife.
+pankulam_tank,Pankulam Wewa,Trincomalee,Eastern,8.65,81.0167,4,2,1,1,1,1,1,2,1,0,2.0,67,Year round,Rural tank near Trincomalee border.
+gallellama_bridge,Gallellama Lagoon Bridge,Batticaloa,Eastern,7.75,81.65,3,1,1,2,2,1,1,1,1,0,1.5,68,May - Sep,Scenic lagoon bridge drive near Batticaloa town.
+kuchchaveli_beach,Kuchchaveli Beach,Trincomalee,Eastern,8.8167,81.0833,4,1,1,2,5,2,1,1,1,0,3.0,75,May - Sep,Unspoiled beach strip north of Nilaveli.
+anuradhapura_ruwanwelisaya,Ruwanwelisaya & Sacred City,Anuradhapura,North Central,8.35,80.3833,3,2,5,2,1,1,2,5,5,8000,5.0,95,Year round,Great white stupa built by King Dutugemunu in 140 BC.
+polonnaruwa_gal_vihara,Gal Vihara Rock Sculptures,Polonnaruwa,North Central,7.9403,81.0188,3,3,5,3,1,1,2,5,4,8000,4.5,93,Year round,"Masterpiece rock-carved seated, standing and reclining Buddhas."
+minneriya_elephants,Minneriya National Park,Habarana,North Central,8.0333,80.8833,5,5,1,3,1,1,1,1,1,12000,4.0,94,Jun - Sep,Site of the world-renowned seasonal Asian elephant gathering.
+mihintale_rock,Mihintale Sacred Mountain,Anuradhapura,North Central,8.3511,80.5097,4,2,5,3,1,1,1,5,5,1000,3.0,87,Year round,"Cradle of Sri Lankan Buddhism with 1,840 stone steps."
+kaudulla_safari,Kaudulla National Park,Habarana,North Central,8.1333,80.9167,5,5,1,3,1,1,1,1,1,11000,4.0,88,Aug - Dec,Alternative safari park for wild elephant herds around Kaudulla tank.
+ritigala_forest,Ritigala Forest Reserve & Ruins,Anuradhapura,North Central,8.1167,80.65,5,3,4,3,1,1,1,5,4,1500,3.0,81,Year round,Ancient medicinal mountain monastery enveloped in dense jungle.
+avukana_statue,Avukana Standing Buddha Statue,Kekirawa,North Central,8.0169,80.5133,2,1,5,1,1,1,1,5,5,1000,1.5,82,Year round,12-meter standing Buddha statue carved from solid rock face.
+sri_maha_bodhi,Jaya Sri Maha Bodhi Tree,Anuradhapura,North Central,8.3447,80.3972,2,1,5,1,1,1,1,5,5,1000,2.0,96,Year round,Oldest human-planted tree in the world with a documented history (288 BC).
+jetavanaramaya,Jetavanaramaya Stupa,Anuradhapura,North Central,8.3517,80.4033,2,1,5,1,1,1,1,5,4,1000,2.0,90,Year round,Once the 3rd tallest structure in the ancient world after Egyptian pyramids.
+abhayagiri_stupa,Abhayagiri Monastery & Stupa,Anuradhapura,North Central,8.3711,80.3956,3,1,5,2,1,1,1,5,4,1000,2.5,88,Year round,Sprawling 500-acre monastic complex with twin ponds (Kuttam Pokuna).
+parakrama_samudra,Parakrama Samudra Reservoir,Polonnaruwa,North Central,7.9167,81.0,5,3,3,2,1,1,1,4,1,0,2.0,85,Year round,12th-century sea-like reservoir built by King Parakramabahu I.
+vatadage_polonnaruwa,Polonnaruwa Vatadage,Polonnaruwa,North Central,7.9472,81.0014,2,1,5,1,1,1,1,5,4,500,1.5,91,Year round,Circular relic house showcasing elaborate moonstone step carvings.
+medirigiriya_vatadage,Medirigiriya Vatadage,Medirigiriya,North Central,8.1556,80.9903,3,1,5,2,1,1,1,5,4,1000,2.5,80,Year round,Pristine circular vatadage standing on a rocky hill outcrop.
+lankarama_stupa,Lankarama Stupa,Anuradhapura,North Central,8.3619,80.3889,2,1,4,1,1,1,1,5,4,500,1.5,82,Year round,Vatadage stupa built by King Walagamba in 1st century BC.
+isurumuniya,Isurumuniya Lovers Rock Carving,Anuradhapura,North Central,8.3344,80.39,3,1,5,1,1,1,1,5,3,500,1.5,87,Year round,Rock temple famous for the 'Isurumuniya Lovers' Gupta-style relief.
+mirisawetiya,Mirisawetiya Stupa,Anuradhapura,North Central,8.3444,80.3881,2,1,4,1,1,1,1,5,4,500,1.5,83,Year round,First stupa built by King Dutugemunu after defeating Elara.
+twin_ponds,Kuttam Pokuna (Twin Ponds),Anuradhapura,North Central,8.3706,80.4019,3,1,5,1,1,1,1,5,1,500,1.0,86,Year round,Ancient engineering marvel of stone bathing pools with filtration.
+samadhi_buddha,Samadhi Buddha Statue,Anuradhapura,North Central,8.3644,80.4019,3,1,5,1,1,1,1,5,5,500,1.0,89,Year round,4th-century marble-like dolomite statue depicting Buddha in deep meditation.
+tissa_wewa_anuradhapura,Tissa Wewa Reservoir,Anuradhapura,North Central,8.3278,80.3833,4,2,2,1,1,1,1,4,1,0,2.0,80,Year round,3rd-century BC reservoir built by King Devanampiya Tissa.
+ranmasu_uyana,Ranmasu Uyana Royal Park & Stargate,Anuradhapura,North Central,8.3333,80.3889,4,1,4,2,1,1,1,5,2,500,2.0,84,Year round,Ancient royal pleasure garden famous for mystery 'Stargate' petroglyph.
+thuparamaya,Thuparamaya Stupa,Anuradhapura,North Central,8.3556,80.3964,2,1,5,1,1,1,1,5,5,500,1.5,88,Year round,First Buddhist stupa built in Sri Lanka (3rd century BC).
+gal_vihara_seated,Gal Vihara Seated Buddha,Polonnaruwa,North Central,7.94,81.018,2,1,5,1,1,1,1,5,4,0,1.0,92,Year round,4.6m seated Buddha carved inside a cave enclosure.
+nissanka_latha,Nissanka Latha Mandapaya,Polonnaruwa,North Central,7.9467,81.0011,2,1,5,1,1,1,1,5,1,0,1.0,83,Year round,Unique stone pavilion with curved lotus-stalk stone pillars.
+rankoth_vehera,Rankoth Vehera Stupa,Polonnaruwa,North Central,7.9547,81.0044,2,1,5,1,1,1,1,5,4,0,1.5,87,Year round,Largest stupa in Polonnaruwa standing 54 meters tall.
+lankatilaka_image_house,Lankatilaka Image House Polonnaruwa,Polonnaruwa,North Central,7.9567,81.0042,2,1,5,1,1,1,1,5,3,0,1.5,89,Year round,Colossal brick structure with a 12m headless standing Buddha.
+thuparama_gedige,Thuparama Gedige Polonnaruwa,Polonnaruwa,North Central,7.9469,81.0008,2,1,5,1,1,1,1,5,3,0,1.5,85,Year round,Best preserved brick roofed image house in Polonnaruwa.
+royal_palace_parakramabahu,Royal Palace of King Parakramabahu,Polonnaruwa,North Central,7.9444,81.0017,2,1,4,1,1,1,1,5,1,0,1.5,86,Year round,Remnants of a 7-story brick palace with massive 3m thick walls.
+kumara_pokuna,Kumara Pokuna Royal Bath,Polonnaruwa,North Central,7.9444,81.0033,3,1,4,1,1,1,1,4,1,0,1.0,80,Year round,Stone royal bath fed by an intricate underground aqueduct.
+audience_hall_nissankamalla,King Nissankamalla Audience Hall,Polonnaruwa,North Central,7.9389,80.9989,2,1,4,1,1,1,1,4,1,0,1.0,79,Year round,Pillared hall featuring carved stone lions and elephants.
+pothgul_vehera,Pothgul Vihara & Statue,Polonnaruwa,North Central,7.925,80.9944,3,1,4,1,1,1,1,5,2,500,1.5,81,Year round,Monastic library complex with iconic sage statue carved into rock.
+nuwaragala_tank,Nuwara Wewa Reservoir,Anuradhapura,North Central,8.35,80.4167,4,2,2,1,1,1,1,3,1,0,2.0,78,Year round,Largest reservoir in Anuradhapura built by King Vattagamani.
+nachchaduwa_tank,Nachchaduwa Reservoir,Anuradhapura,North Central,8.25,80.4833,4,3,1,2,1,1,1,3,1,0,2.5,75,Year round,Ancient tank constructed by King Mungananna in 9th century.
+kalawewa_tank,Kala Wewa & Vijithapura,Kekirawa,North Central,8.0167,80.5333,5,3,3,2,1,1,1,4,1,0,3.0,83,Year round,Huge 5th-century reservoir built by King Dhatusena.
+hurulu_ecopark,Hurulu Eco Park Safari,Habarana,North Central,8.0833,80.8,5,5,1,3,1,1,1,1,1,10000,4.0,86,Year round,Biosphere reserve safari park for wild elephant encounters.
+namal_uyana,Jethawanaramaya Ironwood Forest (Namal Uyana),Galkiriyagama,North Central,7.9167,80.6,5,2,3,3,1,1,1,4,2,1000,3.0,79,Year round,Largest pink quartz mountain range and ironwood forest in South Asia.
+resvehera_statue,Reswehera (Sasseruwa) Buddha Statue,Meegalewa,North Central,7.9833,80.3833,3,1,5,2,1,1,1,5,4,500,2.5,78,Year round,12m standing rock Buddha statue carved in tandem with Avukana.
+somawathiya_stupa,Somawathiya Sacred Stupa,Polonnaruwa,North Central,8.2333,81.1667,3,4,4,2,1,1,1,5,5,500,3.0,85,Year round,Isolated forest stupa in Sungavila enshrinining Buddha's right tooth relic.
+dimbulagala_monastery,Dimbulagala Forest Monastery,Manampitiya,North Central,7.85,81.1333,4,2,4,3,1,1,1,5,4,500,3.0,77,Year round,Mountain forest hermitage with ancient cave inscriptions.
+tammannawa_forest,Tammannawa Forest Hermitage,Mihintale,North Central,8.3333,80.5333,4,2,3,2,1,1,1,4,3,0,2.0,72,Year round,Quiet Buddhist forest retreat near Mihintale.
+angamedilla_park,Angamedilla National Park,Polonnaruwa,North Central,7.9,80.95,5,4,1,3,1,1,1,2,1,8000,3.5,74,Year round,National park protecting Parakrama Samudra catchment area.
+maradankadawala_tank,Maradankadawala Reservoir,Maradankadawala,North Central,8.1333,80.5667,4,2,1,1,1,1,1,2,1,0,2.0,70,Year round,Scenic roadside tank along A9 highway.
+medawachchiya_ruins,Medawachchiya Stupa Ruins,Medawachchiya,North Central,8.5333,80.4833,2,1,4,1,1,1,1,4,3,0,1.5,69,Year round,Ancient northern waystation stupa ruins.
+epawala_phosphate,Eppawala Ancient Phosphate Rock,Eppawala,North Central,8.15,80.4167,3,1,2,1,1,1,1,3,1,0,1.5,68,Year round,Geological rock formation and agricultural site.
+galenbindunuwewa_tank,Galenbindunuwewa Reservoir,Galenbindunuwewa,North Central,8.4,80.6833,4,2,1,1,1,1,1,2,1,0,2.0,67,Year round,Large rural irrigation tank in eastern Anuradhapura.
+tirappane_tank,Tirappane Tank & Village,Tirappane,North Central,8.1833,80.4667,4,2,2,1,1,1,1,2,1,0,2.0,71,Year round,Eco-village surrounding an ancient tank system.
+habarana_eco_lodge,Habarana Lake Trail,Habarana,North Central,8.0389,80.7528,4,3,2,2,1,2,1,1,1,500,2.0,80,Year round,Village tank walk and bullock cart eco-tours.
+giritale_tank,Giritale Tank & Hotel Strip,Giritale,North Central,7.9833,80.9167,4,2,2,2,1,2,1,2,1,0,2.5,78,Year round,7th-century reservoir built by King Agbo II.
+kaudulla_tank_view,Kaudulla Reservoir Viewpoint,Hingurakgoda,North Central,8.15,80.9333,4,3,1,2,1,1,1,2,1,0,2.0,75,Aug - Dec,Scenic bund drive along Kaudulla tank.
+maduru_oya_north,Maduru Oya Park (North Gate),Manampitiya,North Central,7.65,81.2,5,5,2,3,1,1,1,3,1,10000,4.5,76,Year round,National park protecting ancient sluice gates and Vedda lands.
+hingurakgoda_dambulla,Hingurakgoda Countryside,Hingurakgoda,North Central,8.05,80.9833,3,1,1,1,1,2,2,1,1,0,1.5,68,Year round,Paddy farming heartland of North Central province.
+wilpattu_nw,Wilpattu National Park (Puttalam Gate),Puttalam,North Western,8.4461,80.0505,5,5,1,4,2,1,1,2,1,14000,6.0,88,Feb - Oct,Main entrance to Sri Lanka's largest safari park.
+kalpitiya_peninsula,Kalpitiya Peninsula & Kite Surfing,Kalpitiya,North Western,8.2333,79.7667,4,4,1,5,5,3,1,1,1,8000,4.5,85,Nov - Apr,Kite-surfing capital and dolphin watching peninsula.
+yapahuwa_staircase,Yapahuwa Rock Fortress,Kurunegala,North Western,7.8286,80.3164,4,1,5,4,1,1,1,5,2,2000,2.5,83,Year round,13th-century rock citadel with ornamental lion staircase.
+munneswaram,Munneswaram Kovil Chilaw,Chilaw,North Western,7.5819,79.8089,1,1,5,1,1,1,1,5,5,500,1.5,79,Year round,Ancient Shiva Kovil associated with Ramayana epic.
+ridi_viharaya_temple,Ridi Viharaya (Silver Temple),Kurunegala,North Western,7.5458,80.4636,3,1,5,2,1,1,1,5,4,1000,2.0,77,Year round,Cave temple where silver ore was mined for Ruwanwelisaya.
+kurunegala_ethagala,Ethagala (Elephant Rock) Buddha,Kurunegala,North Western,7.4867,80.3647,4,1,4,2,1,2,2,3,4,500,2.0,82,Year round,Massive white Buddha statue atop Elephant Rock overseeing Kurunegala.
+anawilundawa_sanctuary,Anawilundawa Ramsar Wetland,Chilaw,North Western,7.7,79.8,5,5,1,2,2,1,1,1,1,1000,3.0,80,Nov - Mar,UNESCO Ramsar sanctuary comprising 7 interconnected ancient tanks.
+panduwasnuwara,Panduwasnuwara Ancient Kingdom,Hettipola,North Western,7.6083,80.1833,2,1,5,1,1,1,1,5,1,1000,2.5,76,Year round,12th-century capital ruins of King Parakramabahu I.
+dambadeniya_rock,Dambadeniya Rock Fortress,Dambadeniya,North Western,7.3667,80.15,3,1,5,3,1,1,1,5,1,500,2.0,75,Year round,13th-century kingdom rock capital ruins in Kurunegala district.
+bathalagoda_wewa,Bathalagoda Tank & Park,Kurunegala,North Western,7.5167,80.4333,4,2,1,2,1,2,1,2,1,0,2.0,73,Year round,Scenic rice research lake surrounded by paddy fields.
+puttalam_salt_pans,Puttalam Salt Salterns & Lagoon,Puttalam,North Western,8.0333,79.8333,3,2,1,1,3,1,1,2,1,0,2.0,72,Year round,Expansive salt pans along Puttalam lagoon.
+kalpitiya_dutch_fort,Kalpitiya Dutch Fort,Kalpitiya,North Western,8.2389,79.7639,2,1,4,1,3,1,1,5,1,500,1.5,78,Nov - Apr,17th-century coral-stone Dutch fort on Kalpitiya coast.
+st_anne_thalawila,St. Anne's Shrine Thalawila,Kalpitiya,North Western,8.0167,79.7167,2,1,4,1,4,1,1,4,5,500,2.0,81,Year round,Famous Roman Catholic seaside pilgrimage shrine in Kalpitiya.
+marawila_beach,Marawila Palm Beach,Marawila,North Western,7.4167,79.8167,4,1,1,2,4,3,2,1,1,0,3.0,76,Nov - Apr,Quiet coconut beach strip south of Chilaw.
+chilaw_cathedral,Our Lady of Mt. Carmel Cathedral,Chilaw,North Western,7.575,79.7944,1,1,3,1,2,1,1,3,4,0,1.0,71,Year round,Historic Catholic cathedral in Chilaw city.
+wariyapola_botanical,Wariyapola Agricultural Park,Wariyapola,North Western,7.6,80.2667,4,1,2,1,1,2,2,1,1,0,2.0,68,Year round,Government agricultural research and garden park.
+kudagala_monastery,Kudagala Forest Monastery,Nikaweratiya,North Western,7.75,80.1167,4,1,4,2,1,1,1,4,3,0,2.0,69,Year round,Ancient stone ruins tucked inside Kurunegala forest.
+maho_railway,Maho Junction Historic Railway,Maho,North Western,7.8167,80.2667,2,1,3,1,1,1,1,4,1,0,1.5,70,Year round,Colonial rail hub connecting Northern line to Batticaloa.
+anamaduwa_paramakanda,Paramakanda Rock Temple,Anamaduwa,North Western,7.9167,80.0167,3,1,4,3,1,1,1,5,3,500,2.0,72,Year round,Ancient cliff temple with rock inscriptions in Puttalam.
+tonigala_rock,Tonigala Rock Inscriptions,Anamaduwa,North Western,7.9833,80.0833,2,1,4,1,1,1,1,5,1,0,1.5,71,Year round,Longest rock inscription in Sri Lanka (4th century AD).
+wennappuwa_lake,Wennappuwa Lake Park,Wennappuwa,North Western,7.35,79.85,3,1,1,1,1,2,2,1,1,0,1.5,73,Year round,Suburban lake walking park near Marawila.
+giriulla_bridge,Giriulla Maha Oya Bridge,Giriulla,North Western,7.3667,80.1167,3,1,1,2,1,2,1,1,1,0,1.5,68,Year round,Bridge crossing over Maha Oya river connecting Western to North Western province.
+kuliyapitiya_town,Kuliyapitiya Botanical Nursery,Kuliyapitiya,North Western,7.4667,80.05,3,1,1,1,1,2,2,1,1,0,1.5,67,Year round,Agricultural market town in Kurunegala district.
+narammala_betel,Narammala Betel Cultivation Village,Narammala,North Western,7.4333,80.2167,3,1,2,1,1,2,2,1,1,0,1.5,68,Year round,Farming area famous for betel leaf cultivation.
+mawathagama_hills,Mawathagama Hill Range,Mawathagama,North Western,7.4333,80.45,4,1,1,3,1,1,1,1,1,0,2.5,71,Year round,Forested hills along Kurunegala-Kandy highway.
+galgamuwa_tank,Galgamuwa Wewa,Galgamuwa,North Western,7.9833,80.2833,4,3,1,1,1,1,1,2,1,0,2.0,70,Year round,Elephant corridor tank in northern Kurunegala.
+meegalewa_tank,Meegalewa Tank,Meegalewa,North Western,7.9667,80.3333,4,2,1,1,1,1,1,2,1,0,2.0,68,Year round,Rural tank system near Resvehera.
+ubariya_swamp,Ubariya Wetland Sanctuary,Puttalam,North Western,8.0,79.9,4,3,1,1,2,1,1,1,1,0,2.0,67,Nov - Mar,Wetland habitat for local waterbirds.
+vanathavillu_farm,Vanathavillu Cashew Plantations,Puttalam,North Western,8.1833,79.8667,3,1,1,1,2,2,2,1,1,0,2.0,69,Year round,Expansive cashew farming countryside near Wilpattu.
+kudremalai_point,Kudremalai Point (Horse Mountain),Puttalam,North Western,8.5333,79.8667,5,3,3,4,4,1,1,5,1,2000,4.0,74,Feb - Oct,Historic red cliff headland inside Wilpattu where Prince Vijaya landed.
+kuchchaveli_salt,Nattandiya Glass Sand Dunes,Nattandiya,North Western,7.4167,79.8667,3,1,1,1,2,1,2,1,1,0,1.5,66,Year round,Industrial silica sand deposit area.
+dankotuwa_porcelain,Dankotuwa Porcelain Craft Shops,Dankotuwa,North Western,7.3,79.8833,1,1,3,1,1,2,5,2,1,0,2.0,76,Year round,World-renowned porcelain tableware factory showrooms.
+bingiriya_temple,Bingiriya Devagiri Raja Maha Vihara,Bingiriya,North Western,7.5667,80.0667,2,1,5,1,1,1,1,5,4,500,2.0,72,Year round,Ancient temple holding the longest wooden building structure in Sri Lanka.
+kaballalena_temple,Kaballalena Cave Temple,Wariyapola,North Western,7.6333,80.2,3,1,4,2,1,1,1,5,3,500,2.0,71,Year round,Cave temple built by King Walagamba.
+padeniya_temple,Padeniya Raja Maha Vihara,Padeniya,North Western,7.6833,80.2333,2,1,5,1,1,1,1,5,4,500,2.0,73,Year round,Historic temple famous for carved wooden doors and 28 pillars.
+ambanpola_tank,Ambanpola Tank,Ambanpola,North Western,7.8833,80.2333,4,2,1,1,1,1,1,2,1,0,2.0,68,Year round,Irrigation tank along the Kurunegala-Anuradhapura rail line.
+munneswaram_sivan,Sivan Kovil Munneswaram,Chilaw,North Western,7.58,79.808,1,1,4,1,1,1,1,4,5,0,1.0,77,Year round,Primary sanctuary of the Munneswaram complex.
+manaweriya_temple,Manaweriya Kovil,Chilaw,North Western,7.55,79.82,1,1,4,1,1,1,1,4,4,0,1.0,73,Year round,Ramayana-linked temple near Chilaw.
+irakakandi_lagoon,Puttalam Dutch Bay Lagoon,Puttalam,North Western,8.1,79.75,4,3,1,3,4,2,1,1,1,0,3.0,74,Nov - Apr,Scenic lagoon bay popular for boat rides and birding.
+gangewadiya,Gangewadiya Kala Oya Estuary,Puttalam,North Western,8.3,79.8333,5,4,1,3,3,1,1,1,1,1000,3.0,72,Feb - Oct,Estuary where Kala Oya empties into the sea at Wilpattu border.
+illuvankulam,Illuvankulam Bridge (Wilpattu North),Puttalam,North Western,8.4333,79.9167,4,3,1,2,1,1,1,1,1,0,1.5,71,Feb - Oct,Northern crossing point over Kala Oya river into Wilpattu.
+talawila_beach,Talawila Beach,Kalpitiya,North Western,8.01,79.71,4,1,1,2,5,2,1,1,1,0,3.0,78,Nov - Apr,Sandy beach strip adjacent to St. Anne's shrine.
+kudawa_beach,Kudawa Kite Beach,Kalpitiya,North Western,8.2167,79.7167,4,1,1,5,5,3,1,1,1,0,4.0,83,May - Oct,Main launch spot for high-wind kite surfing in Kalpitiya.
+kandakuliya_beach,Kandakuliya Ocean Reef,Kalpitiya,North Western,8.1667,79.7,4,3,1,4,5,2,1,1,1,1000,3.5,79,Nov - Apr,Offshore bar reef launching spot for diving.
+baththalangunduwa,Baththalangunduwa Fishing Island,Kalpitiya,North Western,8.4833,79.75,5,2,2,4,5,1,1,1,1,2000,6.0,84,Nov - Apr,Remote island fishing village popular for wilderness beach camping.
+palaikuda,Palaikuda Lagoon,Kalpitiya,North Western,8.1,79.78,4,3,1,2,3,1,1,1,1,0,2.0,70,Nov - Apr,Inner lagoon bay of Kalpitiya peninsula.
+uchchamunai,Uchchamunai Island,Kalpitiya,North Western,8.4,79.7333,5,1,1,3,5,1,1,1,1,1500,4.0,73,Nov - Apr,Uninhabited sand island tip north of Kalpitiya.
+velanai_nw,Dutch Canal Puttalam Section,Puttalam,North Western,8.0167,79.8333,3,1,2,2,1,1,1,3,1,0,2.0,70,Year round,Historic colonial canal constructed for salt transportation.
+kalpitiya_mangrove,Kalpitiya Mangrove Island Tour,Kalpitiya,North Western,8.25,79.75,5,4,1,3,3,1,1,1,1,2500,3.0,81,Nov - Apr,Boat ride exploring island mangroves and wild birds.
+wilpattu_kudremalai,Kudremalai Sea Cliff Wilpattu,Puttalam,North Western,8.52,79.85,5,3,3,4,4,1,1,4,1,2000,4.0,75,Feb - Oct,Red soil sea cliff inside Wilpattu national park.
+ella_nine_arch_bridge,Ella Nine Arch Bridge & Little Adam's Peak,Ella,Uva,6.8749,81.0463,5,2,3,4,1,4,3,3,1,2000,5.0,96,Jan - Mar,Iconic colonial stone railway viaduct in a lush tea valley.
+ella_rock_trek,Ella Rock Summit Trek,Ella,Uva,6.8558,81.0514,5,2,1,5,1,1,1,1,1,1500,4.5,89,Jan - Mar,Challenging hill country hike rewarding with cliffside valley views.
+diyaluma_falls_upper,Diyaluma Falls & Upper Natural Pools,Koslanda,Uva,6.7322,81.0319,5,1,1,5,1,1,1,1,1,1000,4.0,90,Jan - Mar,220m waterfall featuring natural infinity rock pools at the top edge.
+ravana_falls_cave,Ravana Falls & Ravana Cave,Ella,Uva,6.8406,81.055,4,1,3,3,1,2,2,4,1,500,2.0,86,Year round,Cascading roadside waterfall associated with King Ravana legend.
+liptons_seat_lookout,Lipton's Seat & Dambatenne Factory,Haputale,Uva,6.7803,80.9708,5,1,3,3,1,2,2,4,1,1500,3.5,87,Jan - Mar,Panoramic mountain lookout surveyed by Sir Thomas Lipton.
+dunhinda_falls_badulla,Dunhinda Falls,Badulla,Uva,7.0264,81.0658,5,2,1,3,1,1,1,1,1,500,2.5,82,Year round,64m misty waterfall created by Badulu Oya river.
+kataragama_sacred_complex,Kataragama Sacred Shrine Complex,Kataragama,Uva,6.4133,81.3325,3,2,5,1,1,2,2,5,5,1000,3.0,91,Jul - Aug,"Multi-religious pilgrimage sanctuary for Buddhists, Hindus and Muslims."
+buduruwagala,Buduruwagala Rock Carvings,Wellawaya,Uva,6.7361,81.0544,4,1,5,2,1,1,1,5,4,500,2.0,83,Year round,7 colossal 10th-century Mahayana Buddhist statues carved into a cliff.
+muthiyangana,Muthiyangana Raja Maha Vihara,Badulla,Uva,6.9889,81.0583,2,1,5,1,1,1,1,5,5,500,1.5,80,Year round,Ancient Buddhist temple in Badulla blessed by Lord Buddha's visit.
+madulsima,Madulsima (Mini World's End),Madulsima,Uva,7.0333,81.1667,5,2,1,5,1,1,1,1,1,1000,4.0,85,Jan - Mar,Spectacular mountain ridge escarpment towering over eastern plains.
+gal_oya_park,Gal Oya National Park & Senanayake Samudra,Ampara border,Uva,7.2167,81.4667,5,5,2,4,1,1,1,2,1,12000,5.0,81,Mar - Jul,Safari park famous for boat safaris to watch swimming wild elephants.
+haputale_gap,Haputale Gap & Prabhawa Mountain,Haputale,Uva,6.7667,80.95,5,1,2,3,1,2,2,2,1,500,2.5,84,Jan - Mar,Highland mountain gap offering Southern ocean views on clear days.
+bambarakanda_falls,Bambarakanda Falls (Sri Lanka's Tallest),Kalupahana,Uva,6.7725,80.8358,5,1,1,4,1,1,1,1,1,500,3.0,88,Year round,Tallest waterfall in Sri Lanka (263m) surrounded by pine forests.
+lanka_falls,Lanka Ella Waterfall,Kalupahana,Uva,6.7778,80.8306,5,1,1,4,1,1,1,1,1,500,2.5,80,Year round,Secluded waterfall dropping into a Bo-leaf shaped natural pool.
+bogoda_bridge,Bogoda Wooden Covered Bridge & Temple,Hali-Ela,Uva,6.9667,81.0167,3,1,5,2,1,1,1,5,2,500,2.0,78,Year round,Oldest surviving roofed wooden bridge in Sri Lanka (16th century).
+sorabora_wewa,Sorabora Wewa Reservoir,Mahiyanganaya,Uva,7.3167,81.0167,4,3,3,2,1,1,1,4,1,500,2.5,81,Year round,Ancient reservoir with a unique sluice gate carved out of natural rock.
+mahiyangana_stupa,Mahiyangana Raja Maha Vihara,Mahiyanganaya,Uva,7.3186,80.9886,2,1,5,1,1,1,1,5,5,500,2.0,86,Year round,First stupa built in Sri Lanka during Lord Buddha's lifetime.
+dambana_vedda,Dambana Vedda Indigenous Village,Mahiyanganaya,Uva,7.4167,81.1,3,2,5,2,1,1,3,4,1,1500,3.0,82,Year round,Settlement of Sri Lanka's indigenous Vedda forest dwellers.
+rawana_ella_sanctuary,Ella Wildlife Sanctuary Trail,Ella,Uva,6.86,81.06,5,3,1,4,1,1,1,1,1,0,3.0,80,Jan - Mar,Forested hiking trail around Ravana falls valley.
+halpewatte_tea,Uva Halpewatte Tea Factory,Ella,Uva,6.8917,81.0556,4,1,3,2,1,3,3,3,1,1000,2.0,85,Year round,Largest tea factory in Uva province offering guided tours.
+adisham_bungalow,Adisham Monastery (St. Benedict's),Haputale,Uva,6.7722,80.9389,4,1,4,1,1,2,2,4,2,500,2.0,84,Year round,1931 Tudor-style country house turned Benedictine monastery.
+idalgashinna_station,Idalgashinna Railway Station & Ridge,Haputale,Uva,6.7833,80.8833,5,1,2,3,1,1,1,3,1,0,2.5,87,Year round,Scenic ridge railway station with mist valley drop-offs on both sides.
+kurundu_ella,Kurundu Oya (Kurundu Ella) Falls,Walapane border,Uva,7.0833,80.85,5,1,1,4,1,1,1,1,1,500,3.0,77,Year round,2nd tallest waterfall in Sri Lanka (206m) tucked in deep gorge.
+diyaluma_lower,Diyaluma Lower Roadside Falls,Koslanda,Uva,6.7333,81.0333,4,1,1,2,1,2,1,1,1,0,1.5,86,Year round,Roadside view of Diyaluma's main 220m water drop.
+maligawila_statue,Maligawila Buddha Statue & Dambegoda,Monaragala,Uva,6.7,81.3333,3,1,5,2,1,1,1,5,4,500,2.5,79,Year round,Largest free-standing 7th-century limestone Buddha statue (11.5m).
+monaragala_peacock,Monaragala Peacock Hill (Mayuragiri),Monaragala,Uva,6.8667,81.35,4,2,2,3,1,1,1,2,1,0,2.5,72,Year round,Hill overlook tower watching over Monaragala town.
+sellakataragama,Sella Kataragama Temple,Kataragama,Uva,6.4333,81.3167,3,2,4,1,1,2,2,4,5,500,2.0,82,Year round,Riverside shrine where Lord Kataragama met his consort Valli.
+kebilithya_dewalaya,Kebilithya (Siyambalanduwa) Shrine,Yala Sanctuary,Uva,6.55,81.5,5,4,4,5,1,1,1,4,5,2000,6.0,76,Year round,Deep jungle spiritual sanctuary inside Yala wilderness.
+rahangala_peak,Rahangala Mountain Peak,Boralanda,Uva,6.85,80.8833,5,1,1,4,1,1,1,1,1,0,3.5,73,Jan - Mar,Highland mountain peak near Welimada.
+welimada_fruit,Welimada Agricultural Valley,Welimada,Uva,6.9,80.9167,4,1,2,1,1,3,3,1,1,0,2.0,74,Year round,Cool climate vegetable and fruit farming valley.
+bandarawela_hotel,Bandarawela Colonial Town,Bandarawela,Uva,6.8333,80.9833,4,1,3,2,1,3,3,3,1,0,2.5,81,Jan - Mar,Highland health resort city with dry cool climate.
+dowa_cave_temple,Dowa Rock Temple,Bandarawela,Uva,6.8278,81.0111,3,1,5,2,1,1,1,5,4,500,2.0,80,Year round,Ancient rock temple with an unfinished 12m standing Buddha carving.
+demodara_loop,Demodara Railway Loop & Station,Demodara,Uva,6.9,81.0667,4,1,4,2,1,1,1,4,1,0,2.0,85,Year round,Civil engineering marvel where rail track loops under its own station.
+ballaketuwa_waterfall,Ballaketuwa Falls,Ella,Uva,6.9167,81.0833,4,1,1,3,1,1,1,1,1,0,2.0,71,Jan - Mar,Secluded waterfall along Ella-Passara road.
+passara_10th_mile,Passara Little World's End,Passara,Uva,6.9333,81.15,5,1,1,4,1,1,1,1,1,0,2.5,73,Year round,Cliff drop lookout point on the Passara mountain ridge.
+ Namunukula_peak,Namunukula Mountain Range Peak,Badulla,Uva,6.9333,81.1167,5,2,1,5,1,1,1,1,1,0,5.0,78,Jan - Mar,"Highest peak in Uva province (2,036m) for adventure trekking."
+thangamale_sanctuary,Thangamale Bird Sanctuary,Haputale,Uva,6.7667,80.9333,5,4,1,3,1,1,1,1,1,500,3.0,76,Jan - Mar,Highland pine forest bird sanctuary near Adisham.
+surathali_falls,Surathali Falls,Haldummulla,Uva,6.75,80.85,4,1,1,2,1,1,1,1,1,0,1.5,75,Year round,60m waterfall cascading along Colombo-Badulla highway.
+yalwela_waterfall,Yalwela Waterfall,Koslanda,Uva,6.74,81.02,4,1,1,3,1,1,1,1,1,0,2.0,70,Year round,Lesser-known waterfall near Koslanda.
+kirindi_oya_falls,Kirindi Oya Falls,Wellawaya,Uva,6.7167,81.0167,4,1,1,3,1,1,1,1,1,0,2.0,72,Year round,116m high waterfall hidden in deep jungle.
+handapanagala_tank,Handapanagala Reservoir & Elephants,Wellawaya,Uva,6.7167,81.1,4,4,1,2,1,1,1,2,1,0,2.5,74,Year round,Reservoir famous for evening wild elephant drinking herds.
+weheragala_reservoir,Weheragala Dam & Park,Kataragama,Uva,6.45,81.25,4,4,1,2,1,1,1,2,1,1000,3.0,73,Year round,Reservoir inside Lunugamvehera national park catchment.
+lunugamvehera_park,Lunugamvehera National Park,Tissamaharama border,Uva,6.3667,81.2,5,5,1,3,1,1,1,1,1,10000,4.0,77,Year round,Elephant corridor linking Yala to Udawalawe.
+governors_pool_ella,Ravana Pool Club & Flying Ravana,Ella,Uva,6.87,81.05,4,1,2,5,1,4,2,1,1,4000,3.0,89,Jan - Mar,Mega zip-line adventure park and mountain pool club in Ella.
+nine_arch_tunnel,Demodara Railway Tunnel,Ella,Uva,6.877,81.048,4,1,3,2,1,1,1,3,1,0,1.5,88,Jan - Mar,Tunnel #40 leading directly onto the Nine Arch Bridge.
+ella_spice_garden,Ella Cooking Class & Spice Garden,Ella,Uva,6.87,81.044,2,1,4,1,1,5,3,2,1,4500,3.0,86,Year round,Popular Sri Lankan traditional rice and curry cooking school.
+blackwood_tea,Blackwood Tea Estate View,Haputale,Uva,6.77,80.94,5,1,2,2,1,2,1,2,1,0,2.0,75,Jan - Mar,Highland tea viewpoint near Haputale gap.
+beragala_gap,Beragala Pass Viewpoint,Beragala,Uva,6.7667,80.9167,5,1,1,3,1,2,1,1,1,0,1.5,79,Year round,Mountain pass junction offering sweeping southern plain views.
+haldummulla_fort,Haldummulla Dutch Fort Ruins,Haldummulla,Uva,6.7667,80.8833,3,1,2,2,1,1,1,4,1,0,1.5,71,Year round,High-altitude Portuguese and Dutch redoubt ruins.
+wellawaya_paddy,Wellawaya Agricultural Plains,Wellawaya,Uva,6.7333,81.1,4,2,2,1,1,2,1,2,1,0,2.0,70,Year round,Paddy field valley crossroads at the foot of Uva hills.
+udawalawe_park,Udawalawe National Park,Udawalawe,Sabaragamuwa,6.4753,80.8889,5,5,1,3,1,1,1,1,1,13000,5.0,92,Year round,Open reservoir safari park famous for elephant herds.
+adams_peak_sripada,Adam's Peak (Sri Pada),Nallathanniya,Sabaragamuwa,6.8096,80.4994,5,2,4,5,1,1,1,4,5,2500,8.0,90,Dec - May,"Sacred mountain pilgrimage climb of 5,500 stone steps."
+pinnawala_orphanage,Pinnawala Elephant Orphanage,Kegalle,Sabaragamuwa,7.3009,80.3885,3,5,2,1,1,2,3,1,1,3000,3.0,87,Year round,Herd of rescued elephants with daily river bathing procession.
+kitulgala_rafting_center,Kitulgala White Water Rafting,Kitulgala,Sabaragamuwa,6.9903,80.4136,5,2,1,5,1,2,1,2,1,5000,4.5,88,Year round,Grade 3 white-water rafting and canyoning on Kelani river.
+sinharaja_rainforest_gate,Sinharaja Virgin Rain Forest,Deniyaya,Sabaragamuwa,6.4,80.4667,5,5,1,4,1,1,1,1,1,5000,5.0,86,Dec - Apr,UNESCO primary tropical rainforest biosphere reserve.
+bopath_ella_falls,Bopath Ella Waterfall,Ratnapura,Sabaragamuwa,6.7947,80.3756,4,1,1,2,1,2,1,1,1,500,2.0,80,Year round,Bo-leaf shaped waterfall popular for family day visits.
+ratnapura_gem_mines,Ratnapura Gem Mines & Museum,Ratnapura,Sabaragamuwa,6.6828,80.3992,2,1,4,2,1,2,4,4,1,1000,2.5,81,Year round,City of Gems famous for traditional sapphire mining pits.
+elephant_transit_home,Elephant Transit Home (ETH),Udawalawe,Sabaragamuwa,6.4778,80.8917,3,5,1,1,1,1,1,1,1,1000,2.0,89,Year round,Rehabilitation sanctuary feeding orphaned elephant calves milk.
+belilena_cave,Belilena Prehistoric Cave,Kitulgala,Sabaragamuwa,6.9833,80.4333,4,1,3,3,1,1,1,5,1,500,2.5,78,Year round,"Prehistoric cave where 12,000-year-old 'Balangoda Man' fossils were found."
+pinnawala_zoo,Pinnawala Open Zoo,Kegalle,Sabaragamuwa,7.3025,80.3847,3,4,1,1,1,2,2,1,1,2000,2.5,79,Year round,First open-concept zoo in Sri Lanka showcasing native species.
+sripada_sandagalathenna,Sandagalathenna (Sri Pada Trail),Ratnapura,Sabaragamuwa,6.8167,80.4833,5,2,2,5,1,1,1,2,3,0,6.0,77,Dec - May,Scenic Ratnapura-Palabaddala hiking route up Adam's Peak.
+kuragala_monastery,Kuragala Ancient Buddhist Monastery,Balangoda,Sabaragamuwa,6.6333,80.8667,4,1,5,3,1,1,1,5,5,500,3.0,84,Year round,Historic cave monastery complex on a cliff edge near Balangoda.
+mawanella_utuwankanda,Utuwankanda (Saradiel Rock),Mawanella,Sabaragamuwa,7.2525,80.4464,4,1,3,4,1,1,1,4,1,500,2.5,81,Year round,"Rock fortress associated with 'Saradiel', Sri Lanka's Robin Hood."
+batadombalena,Batadombalena Archaeological Cave,Kuruwita,Sabaragamuwa,6.7722,80.3703,4,1,3,3,1,1,1,5,1,500,3.0,76,Year round,"Important palaeolithic cave site yielding 36,000-year-old human remains."
+kirindi_ella,Kirindi Ella Waterfall,Pelmadulla,Sabaragamuwa,6.6833,80.4833,5,1,1,3,1,1,1,1,1,500,2.5,77,Year round,116m waterfall cascading into a deep pool near Ratnapura.
+mapalana_falls,Mapalana Ella Waterfall,Ratnapura,Sabaragamuwa,6.7833,80.4333,5,1,1,4,1,1,1,1,1,0,3.0,74,Year round,141m waterfall tucked in Sri Pada peak foothills.
+rahanwatta_falls,Rahanwatta Falls,Dehiowita,Sabaragamuwa,7.0333,80.2667,4,1,1,3,1,1,1,1,1,0,2.0,71,Year round,Cascade waterfall in Dehiowita rubber region.
+embilipitiya_lake,Embilipitiya Chandrika Wewa,Embilipitiya,Sabaragamuwa,6.3333,80.85,4,2,1,2,1,2,2,2,1,0,2.0,76,Year round,Large reservoir park serving southern Sabaragamuwa.
+samanalawewa_dam,Samanalawewa Dam & Reservoir,Balangoda,Sabaragamuwa,6.6833,80.7833,4,2,2,3,1,1,1,3,1,500,2.5,78,Year round,Hydroelectric dam lake set in scenic Balangoda mountain basin.
+bulathkohupitiya_falls,Rikillagaskada / Bulathkohupitiya Waterfalls,Bulathkohupitiya,Sabaragamuwa,7.1167,80.35,5,1,1,3,1,1,1,1,1,0,2.5,75,Year round,Valley region famous for 7 cascading waterfalls including Nalangana.
+nalangana_falls,Nalangana Ella Waterfall,Bulathkohupitiya,Sabaragamuwa,7.1,80.3667,5,1,1,3,1,1,1,1,1,500,2.0,74,Year round,Beautiful curtain waterfall in Kegalle district.
+suriyakanda_pass,Suriyakanda Mountain Pass,Rakwana,Sabaragamuwa,6.45,80.6167,5,1,1,4,1,1,1,1,1,0,2.5,79,Year round,Scenic hair-pin mountain pass connecting Rakwana to Deniyaya.
+rakwana_tea,Rakwana 10-Hairpin Bend Tea Estates,Rakwana,Sabaragamuwa,6.4667,80.6,5,1,2,3,1,1,1,2,1,0,2.0,80,Year round,Winding tea country road known for 10 consecutive hairpin curves.
+sinharaja_kudawa,Sinharaja Kudawa Entrance,Kalawana,Sabaragamuwa,6.4333,80.4167,5,5,1,4,1,1,1,1,1,5000,5.0,85,Dec - Apr,Northern rainforest entrance for research and birdwatching.
+makandawa_forest,Makandawa Rainforest Reserve,Kitulgala,Sabaragamuwa,6.9833,80.4167,5,4,1,3,1,1,1,1,1,1000,3.0,76,Year round,Rainforest bird sanctuary across the Kelani river in Kitulgala.
+alupola_falls,Alupola Ella Waterfall,Ratnapura,Sabaragamuwa,6.7167,80.45,4,1,1,3,1,1,1,1,1,0,2.0,72,Year round,68m waterfall in Alupola tea estate.
+dhanigala_peak,Dhanigala (Alien Rock) Peak,Balangoda,Sabaragamuwa,6.65,80.8833,5,2,3,5,1,1,1,3,1,500,4.0,79,Year round,Unique circular flat-topped mountain peak popular for trekking.
+kuruwita_erathna,Kuruwita Erathna Sri Pada Trail,Kuruwita,Sabaragamuwa,6.7833,80.4,5,2,3,5,1,1,1,3,3,0,7.0,76,Dec - May,Traditional jungle trail climb to Adam's Peak.
+waulpane_cave,Waulpane Limestone Bat Cave,Kolonne,Sabaragamuwa,6.4333,80.7333,4,4,1,4,1,1,1,2,1,500,3.0,77,Year round,Prehistoric limestone cave home to hundreds of thousands of bats.
+maduwanwela_walawwa,Maduwanwela Walawwa Manor House,Kolonne,Sabaragamuwa,6.4,80.75,2,1,5,1,1,1,1,5,1,500,2.0,81,Year round,Historic 17th-century native chieftain manor with 21 courtyards.
+sankapala_temple,Sankapala Raja Maha Vihara,Pallebedda,Sabaragamuwa,6.4833,80.7833,3,1,4,2,1,1,1,5,4,500,2.0,75,Year round,Rock cave temple associated with King Dutugemunu's giant warrior Pussadeva.
+nonpareil_estate,Nonpareil Tea Estate & Nonpareil Falls,Balangoda,Sabaragamuwa,6.7333,80.7833,5,1,2,4,1,1,1,2,1,500,3.5,78,Year round,High-altitude tea estate leading towards Horton Plains south cliff.
+hirikatu_oya,Hirikatu Oya Eco Bathing Spot,Balangoda,Sabaragamuwa,6.6667,80.7667,4,1,1,3,1,2,1,1,1,0,2.0,74,Year round,Crystal clear mountain stream bathing spot in Balangoda.
+pelandaba_fort,Pelandaba Ancient Fort Ruins,Bulathkohupitiya,Sabaragamuwa,7.1167,80.3333,2,1,3,1,1,1,1,4,1,0,1.5,68,Year round,16th-century Portuguese war fort remnants.
+saradiel_village,Saradiel Theme Village,Mawanella,Sabaragamuwa,7.25,80.45,2,1,4,1,1,2,2,3,1,1000,2.0,77,Year round,Life-size outdoor museum depicting 19th-century Ceylon village life.
+asupini_ella,Asupini Ella Waterfall,Aranayaka,Sabaragamuwa,7.15,80.4667,5,1,1,4,1,1,1,1,1,500,3.0,80,Year round,30m waterfall associated with ancient royal legends in Aranayaka.
+kadugannawa_pass,Kadugannawa Rock Tunnel & Tower,Kadugannawa,Sabaragamuwa,7.2536,80.5264,3,1,3,2,1,2,2,5,1,0,1.5,83,Year round,Historic rock-cut road tunnel built by Captain Dawson in 1832.
+dawson_tower,Dawson Tower Kadugannawa,Kadugannawa,Sabaragamuwa,7.2542,80.5258,2,1,3,2,1,1,1,5,1,0,1.0,79,Year round,Monument honoring Captain Dawson who built the Colombo-Kandy road.
+kegalle_spice,Kegalle Spice & Herbal Garden,Kegalle,Sabaragamuwa,7.25,80.35,4,1,3,1,1,3,3,2,1,1000,1.5,75,Year round,"Sprawling spice garden exhibiting vanilla, cocoa and cinnamon."
+hemawathie_falls,Hemawathie Ella Waterfall,Dehiowita,Sabaragamuwa,7.0167,80.2833,4,1,1,2,1,1,1,1,1,0,1.5,70,Year round,Scenic local waterfall near Dehiowita.
+yatiyantota_rubber,Yatiyantota Rubber Country,Yatiyantota,Sabaragamuwa,7.0333,80.3,4,1,2,2,1,1,1,2,1,0,2.0,72,Year round,River valley surrounded by rubber tree plantations.
+eheliyagoda_gems,Eheliyagoda Gem Mining Center,Eheliyagoda,Sabaragamuwa,6.85,80.2667,2,1,3,2,1,2,4,3,1,500,2.0,73,Year round,Town famous for traditional gem pit mining and processing.
+kuruwita_waterfall,Delgoda Ella Waterfall,Kuruwita,Sabaragamuwa,6.7667,80.35,4,1,1,3,1,1,1,1,1,0,2.0,71,Year round,Forest waterfall near Kuruwita town.
+pelmadulla_valley,Pelmadulla Paddy & Gem Valley,Pelmadulla,Sabaragamuwa,6.6333,80.5333,3,1,2,1,1,2,2,2,1,0,2.0,71,Year round,Paddy valley crossroads between Ratnapura and Balangoda.
+rakwana_gap,Rakwana Plateau View,Rakwana,Sabaragamuwa,6.47,80.61,5,1,1,3,1,1,1,1,1,0,2.0,77,Year round,Highland plateau lookout watching over Sabaragamuwa.
+deniyaya_border,Deniyaya Rain Forest Border,Deniyaya border,Sabaragamuwa,6.3833,80.55,5,4,1,3,1,1,1,1,1,0,2.5,74,Dec - Apr,Southern gateway border into Sinharaja rainforest.
+kitulgala_bridge,Bridge on the River Kwai Site,Kitulgala,Sabaragamuwa,6.995,80.415,4,1,3,2,1,1,1,4,1,0,1.5,82,Year round,Filming location of the 1957 Oscar-winning movie 'Bridge on the River Kwai'.
+deraniyagala_falls,Deraniyagala Waterfalls Cluster,Deraniyagala,Sabaragamuwa,6.9333,80.3333,5,1,1,4,1,1,1,1,1,0,3.0,73,Year round,Remote valley featuring multiple natural cascades.
+dehiowita_river,Kelani River Bend Dehiowita,Dehiowita,Sabaragamuwa,7.02,80.26,4,1,1,3,1,1,1,1,1,0,1.5,70,Year round,Scenic bend of Kelani river popular for natural bathing.
+kegalle_town_rock,Kegalle Rock Outcrop,Kegalle,Sabaragamuwa,7.251,80.346,3,1,2,2,1,2,2,2,1,0,1.5,72,Year round,Central rock hill overlooking Kegalle town.
